@@ -6,19 +6,21 @@ import requests
 headers = ['prompt', 'source1', 'source2', 'source3', 'source4', 'source5']
 
 # save the query and source texts to a csv file
-with open("responses.csv", mode='w', newline='') as output_file:
-    writer = csv.writer(output_file)
+with open("responses.csv", mode = 'w', newline = '') as f_out:
+    writer = csv.writer(f_out)
     writer.writerow(headers)
     responses = []
 
     # read in the queries
-    with open('queries.csv', mode='r') as input_file:
-
-        queries = csv.reader(input_file)
+    with open('queries.csv', mode = 'r') as f_in:
+        queries = csv.reader(f_in)
         for row in queries:
+            #skip irrelevant rows
             if not row:
                 continue
             query = row[0].strip()
+
+            #send POST request
             result = requests.post("http://localhost:8000/ask", json={"query": query})
             response_data = result.json()
 
@@ -29,7 +31,6 @@ with open("responses.csv", mode='w', newline='') as output_file:
             # write to the csv file
             full_row = [query] + source_texts + ['']
             writer.writerow(full_row)
-
             responses.append({"query": query, "response": response_data})
 
         # also save the prompt and response to a json file
