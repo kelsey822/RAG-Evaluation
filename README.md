@@ -35,4 +35,13 @@ pip install pip-tools
 # add library or libraries to requirements.in
 pip-compile requirements.in
 pip install -r requirements.txt
+
 ```
+# Generate the data set
+
+Note: [policy chat][https://github.com/healthmap/policy_chat_backend] needs to be running before generation of the data set
+````
+# with policy chat running
+python rag-test.py
+````
+The data will be saved in a csv file containing the query and source texts as separate columns.
