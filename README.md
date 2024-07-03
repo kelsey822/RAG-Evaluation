@@ -49,8 +49,8 @@ The data will be saved in a csv file containing the query and source texts as se
 # Retrieval metrics
 The following metrics are calculated on the retrieval data
   * Precision at k (P@k): Calculates the percentage of top-k sources that were relevant to the query.
-  * Mean Reciprocal Rank (MRR)
-  * Mean Average Precision (MAP)
+  * Mean Reciprocal Rank (MRR): Measures the percentage that the most relevant item was returned at the highest rank.
+  * Mean Average Precision (MAP): Measures the average precision at k.
   * Cumulative Gain (CG)
   * Normalized Cumulative Discounted Gain (NCDG)
 
