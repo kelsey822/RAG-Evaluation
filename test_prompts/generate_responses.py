@@ -1,21 +1,20 @@
-import csv
-import json
-
-import requests
-
 """Loads a file of queries and generates responses from policy-chat API.
 """
 
+import csv
+import json
+import requests
 
-def headers(k) -> list:
+
+def headers(columns: int) -> list:
     """Creates the header file for a csv file containing the prompt and relevant documents."""
     headers = ["prompt"]
-    for i in range(k):
+    for i in range(columns):
         headers.append(f"source{i + 1}")
     return headers
 
 
-def generate_responses(headers, input, output):
+def generate_responses(headers: list, input: str, output: str):
     """Save the responses from policy-chat API of a given list of queries to a csv file."""
     # save the query and source texts to a csv file
     with open(output, mode="w", newline="") as f_out:
@@ -58,6 +57,6 @@ def generate_responses(headers, input, output):
 
 
 if __name__ == "__main__":
-    k = 5
-    headers = headers(k)
+    columns = 5
+    headers = headers(columns)
     generate_responses(headers, "queries.csv", "responses.csv")
