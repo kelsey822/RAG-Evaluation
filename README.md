@@ -45,3 +45,20 @@ Note: [policy chat][https://github.com/healthmap/policy_chat_backend] needs to b
 python rag-test.py
 ````
 The data will be saved in a csv file containing the query and source texts as separate columns.
+
+# Retrieval metrics
+The following metrics are calculated on the retrieval data
+  * Precision at k (P@k): Calculates the percentage of top-k sources that were relevant to the query.
+  * Mean Reciprocal Rank (MRR): Measures the percentage that the most relevant item was returned at the highest rank.
+  * Mean Average Precision (MAP): Measures the average precision at k.
+  * Cumulative Gain (CG)
+  * Normalized Cumulative Discounted Gain (NCDG)
+
+# Generate the retrieval metrics
+
+Note: responses.csv must be in the same working directory as metric_calc.py to generate metrics
+
+```
+# with responses.csv already generated
+python metric_calc.py
+```
