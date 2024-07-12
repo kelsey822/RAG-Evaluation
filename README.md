@@ -51,14 +51,14 @@ The following metrics are calculated on the retrieval data
   * Precision at k (P@k): Calculates the percentage of top-k sources that were relevant to the query.
   * Mean Reciprocal Rank (MRR): Measures the percentage that the most relevant item was returned at the highest rank.
   * Mean Average Precision (MAP): Measures the average precision at k.
-  * Cumulative Gain (CG)
-  * Normalized Cumulative Discounted Gain (NCDG)
+  * Cumulative Gain (CG): Measures the total sum of relevances.
+  * Normalized Cumulative Discounted Gain (NCDG): Measures the normalized sum of relevances while adding a discount factor for order.
 
 # Generate the retrieval metrics
 
 Note: responses.csv must be in the same working directory as metric_calc.py to generate metrics
 
 ```
-# with responses.csv already generated
+# with responses.csv already generated including human scored relevances
 python metric_calc.py
 ```
