@@ -3,9 +3,10 @@
 
 import csv
 import string
-
 import nltk  # for word tokenization
 from nltk.corpus import stopwords
+import math # for logarithmic discount
+
 
 try:
     nltk.data.find("tokenizers/punkt")
@@ -119,6 +120,26 @@ def mean_reciprocal_rank(sources: list, keywords: set) -> float:
     return round(total_rr / total_q, 3)
 
 
+def cumulative_gain(relevances: list) -> float:
+    """Returns the total sum of relevancy for one query/documents pair with min being 0 (no relevancy) 
+    and max being k^2 (extremely relevant)
+    """
+    cg = 0
+    for relevance in relevances:
+        cg += relevance
+    return cg
+
+def normalized_discounted_cg(relevances: list, k: int) -> float:
+    """Return the normalized discounted cumulative gain based on the relevances provided.
+    """
+    dcg = 0 #non normalized
+    for i in range(len(relevances)):
+        dcg += relevance[i] / math.log2(i + 1)
+
+    #normalize the metric
+    ideal_dcg = 
+
+
 def generate_metrics(input: str, output: str, k: int):
     """Generates a csv file contains the prompts and the metrics for their retrieved
     documents. Returns the name of the output file.
@@ -132,6 +153,7 @@ def generate_metrics(input: str, output: str, k: int):
             ["prompt", " precision at k", " mean reciprocal rank", " average precision"]
         )
 
+        # to generate binary metrics
         # read in the queries and responses from the csv file
         with open(input, mode="r", newline="") as f_in:
             responses = csv.reader(f_in)
@@ -150,8 +172,22 @@ def generate_metrics(input: str, output: str, k: int):
                 mrr = mean_reciprocal_rank(sources, keywords)
                 ap = average_precision(sources, keywords, k)
                 output.writerow([query, p_at_k, mrr, ap])
+        print("binary metrics generated")
 
-    print("metrics generated")
+        # to generate non binary metrics
+        # read in queries, responses, and human scored relevances
+        with open(input, mode = "r", newline = "") as f_in:
+            scored_responses = csv.reader(f_in)
+            #skip the heaader
+            next(scored_responses)
+
+            #get the relevance scores
+            for response in scored_responses:
+                relevances = scored_responses[k + 1 : 2k + 2]
+
+
+        print("nonbinary metrics generated")
+
     return output
 
 
