@@ -133,7 +133,7 @@ def cumulative_gain(relevances: list) -> float:
 def normalized_discounted_cg(relevances: list) -> float:
     """Return the normalized discounted cumulative gain based on the relevances provided."""
     dcg = 0  # non normalized
-    for i in range(len(relevances)):
+    for i, relevance in enumerate(relevances):
         dcg += int(relevances[i]) / math.log2(
             i + 2
         )  # plus 2 since we use zero indexing
@@ -176,7 +176,6 @@ def generate_metrics(input: str, output: str, k: int):
                 query = response[0]
                 sources = response[1 : k + 1]
                 relevances = response[k + 1 : 2 * k + 2]
-                print(relevances)
 
                 # get the keywords from the prompts
                 keywords = get_keywords(query)
