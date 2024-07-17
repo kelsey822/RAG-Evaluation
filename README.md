@@ -62,3 +62,19 @@ Note: responses.csv must be in the same working directory as metric_calc.py to g
 # with responses.csv already generated including human scored relevances
 python metric_calc.py
 ```
+# Generate a response from an LLM
+
+To generate a response with no retrieved sources from policy-chat created:
+```
+python generate_llm_response.py "Query"
+```
+Note: An input .csv file cannot be provided in the script
+This will pass the query to policy-chat, generate the relevant sources, and then pass to the LLM.
+
+To generate a response with a .csv file of queries and pre-generated sources
+```
+python generate_llm_response.py
+```
+Note: An input .csv file must be provided in the script
+
+For both methods, the query and llm response will be saved to a .csv file after running.
