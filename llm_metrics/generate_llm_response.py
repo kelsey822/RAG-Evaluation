@@ -26,24 +26,26 @@ def pass_to_policy_chat(query: str):
         json.loads(source["page_content"]).get("text", "")
         for source in sources
     ]
+    print("sources retrieved")
     return source_texts
 
 
-def get_llm_response(query: str):
+def get_llm_response(query: str, sources = None):
     """Takes a command line string query as the argument. Calls policy-chat API to get relevant
     sources and then passes to a LLM for repsonse generation.
     """
 
-    # get the retrieved sources from policy-chat API
-    sources = pass_to_policy_chat(query)
+    # get the retrieved sources from policy-chat API if needed
+    if not sources:
+        sources = pass_to_policy_chat(query)
 
     # format content to pass to the API
     prompt = f""" Based on the following retreieved sources using a policy-chat API, please answer the query.
     Here is the query:
     query = "{query}"
-    Here are the retrieved sources, the higher the source number the less relevant the information will be, take that into account. 
+    Here are the retrieved sources, the higher the source number the less relevant the information will be, take that into account.
     Base your response off of the retrieved sources, make them not too long and easily understandable.
-    If none of the sources help you answer the question, say that you cannot answer it with the sources. Do not make up an answer. 
+    If none of the sources help you answer the question, say that you cannot answer it with the sources. Do not make up an answer.
     source 1: {sources[0]}
     source 2: {sources[1]}
     source 3: {sources[2]}
@@ -52,7 +54,7 @@ def get_llm_response(query: str):
     """
 
     # call the mistral API to generate a response
-    api_key = os.environ["MISTRAL_API_KEY"]
+    api_key = os.environ['MISTRAL_API_KEY']
     model = "mistral-large-latest"
 
     client = MistralClient(api_key=api_key)
@@ -66,28 +68,48 @@ def get_llm_response(query: str):
 
     #format the response
     formated_response = response.replace("\n", "")
-    print(response)
     return formated_response
 
 
 if __name__ == "__main__":
     output = "llm_responses.csv"
+    input = "responses.csv" # do not provide an input file if you want to use command line arguments
+
 
     #get the total number of arguments
     n = len(sys.argv)
 
+    # if just a query is provided
+    if n == 2:
+        query = sys.argv[1]
+        responses = [(query, None)] #get sources from poliy-chat
+        print("need to call policy chat")
+
+    else: # a csv file is passed with sources already generated
+        print("sources already generated")
+        responses = []
+        with open(input, mode='r', newline="") as f_in:
+            reader = csv.reader(f_in)
+            for row in reader:
+                query = row[0]
+                sources = row[1:]
+                responses.append((query, sources))
+
     # open the output file for writing
     with open(output, mode='w', newline="") as f_out:
         writer = csv.writer(f_out)
+        # write the header
         writer.writerow(["query", "response"])
 
-        #get responses for each of the queries
-        for i in range(1, n): #skip the first arg
-            query = sys.argv[i]
-            response = get_llm_response(query)
+        #generate the llm response
+        for i in range(len(responses) - 1):
+            i+= 1 #skip the header of the csv file
+            query = responses[i][0]
+            sources = responses[i][1]
+            llm_response = get_llm_response(query, sources)
 
             # format the row to write
-            row = [query] + [response] + [""]
+            row = [query] + [llm_response] + [""]
             #write the row
             writer.writerow(row)
     print(output)
