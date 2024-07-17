@@ -5,32 +5,30 @@ query, retrieved sources, and llm generated response.
 
 import csv
 import json
-import requests
-import sys
 import os
+import sys
+
+import requests
 from mistralai.client import MistralClient
 from mistralai.models.chat_completion import ChatMessage
 
+
 def pass_to_policy_chat(query: str):
-    """Return a list of the retrieved sources from poliy-chat given a query as an input.
-    """
+    """Return a list of the retrieved sources from poliy-chat given a query as an input."""
     # send POST request to policy-chat API
-    result = requests.post(
-        "http://localhost:8000/ask", json={"query": query}
-    )
+    result = requests.post("http://localhost:8000/ask", json={"query": query})
     response_data = result.json()
 
     # get the text from the sources
     sources = response_data.get("source_documents", [])
     source_texts = [
-        json.loads(source["page_content"]).get("text", "")
-        for source in sources
+        json.loads(source["page_content"]).get("text", "") for source in sources
     ]
     print("sources retrieved")
     return source_texts
 
 
-def get_llm_response(query: str, sources = None):
+def get_llm_response(query: str, sources=None):
     """Takes a command line string query as the argument. Calls policy-chat API to get relevant
     sources and then passes to a LLM for repsonse generation.
     """
@@ -54,41 +52,39 @@ def get_llm_response(query: str, sources = None):
     """
 
     # call the mistral API to generate a response
-    api_key = os.environ['MISTRAL_API_KEY']
+    api_key = os.environ["MISTRAL_API_KEY"]
     model = "mistral-large-latest"
 
     client = MistralClient(api_key=api_key)
 
     chat_response = client.chat(
-    model=model,
-    messages=[ChatMessage(role="user", content=prompt)]
+        model=model, messages=[ChatMessage(role="user", content=prompt)]
     )
 
-    response = (chat_response.choices[0].message.content)
+    response = chat_response.choices[0].message.content
 
-    #format the response
+    # format the response
     formated_response = response.replace("\n", "")
     return formated_response
 
 
 if __name__ == "__main__":
     output = "llm_responses.csv"
-    input = "responses.csv" # do not provide an input file if you want to use command line arguments
+    input = "responses.csv"  # do not provide an input file if you want to use command line arguments
 
-
-    #get the total number of arguments
+    # get the total number of arguments
     n = len(sys.argv)
 
     # if just a query is provided
     if n == 2:
         query = sys.argv[1]
-        responses = [(query, None)] #get sources from poliy-chat
+        responses = [(query, None)]  # get sources from poliy-chat
         print("need to call policy chat")
 
-    else: # a csv file is passed with sources already generated
+    else:  # a csv file is passed with sources already generated
         print("sources already generated")
         responses = []
-        with open(input, mode='r', newline="") as f_in:
+        with open(input, mode="r", newline="") as f_in:
             reader = csv.reader(f_in)
             for row in reader:
                 query = row[0]
@@ -96,20 +92,20 @@ if __name__ == "__main__":
                 responses.append((query, sources))
 
     # open the output file for writing
-    with open(output, mode='w', newline="") as f_out:
+    with open(output, mode="w", newline="") as f_out:
         writer = csv.writer(f_out)
         # write the header
         writer.writerow(["query", "response"])
 
-        #generate the llm response
+        # generate the llm response
         for i in range(len(responses) - 1):
-            i+= 1 #skip the header of the csv file
+            i += 1  # skip the header of the csv file
             query = responses[i][0]
             sources = responses[i][1]
             llm_response = get_llm_response(query, sources)
 
             # format the row to write
             row = [query] + [llm_response] + [""]
-            #write the row
+            # write the row
             writer.writerow(row)
     print(output)
