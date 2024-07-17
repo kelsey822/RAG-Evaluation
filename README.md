@@ -63,7 +63,6 @@ Note: responses.csv must be in the same working directory as metric_calc.py to g
 python metric_calc.py
 ```
 # Generate a response from an LLM
-
 To generate a response with no retrieved sources from policy-chat created:
 ```
 python generate_llm_response.py "Query"
@@ -75,6 +74,6 @@ To generate a response with a .csv file of queries and pre-generated sources
 ```
 python generate_llm_response.py
 ```
-Note: An input .csv file must be provided in the script
+Note: An input .csv file (containing queries and sources) must be provided in the script and in the same directory as the script.
 
 For both methods, the query and llm response will be saved to a .csv file after running.
