@@ -52,7 +52,8 @@ def get_llm_response(query: str, sources=None):
     """
 
     # call the mistral API to generate a response
-    api_key = os.environ["MISTRAL_API_KEY"]
+    #api_key = os.environ["MISTRAL_API_KEY"]
+    api_key = os.environ["MISTRAL_API_KEY2"]
     model = "mistral-large-latest"
 
     client = MistralClient(api_key=api_key)
@@ -69,8 +70,8 @@ def get_llm_response(query: str, sources=None):
 
 
 if __name__ == "__main__":
-    output = "llm_responses.csv"
-    input = "responses.csv"  # do not provide an input file if you want to use command line arguments
+    out_f = "llm_responses_3.csv"
+    in_f = "responses.csv"  # do not provide an input file if you want to use command line arguments
 
     # get the total number of arguments
     n = len(sys.argv)
@@ -84,7 +85,7 @@ if __name__ == "__main__":
     else:  # a csv file is passed with sources already generated
         print("sources already generated")
         responses = []
-        with open(input, mode="r", newline="") as f_in:
+        with open(in_f, mode="r", newline="") as f_in:
             reader = csv.reader(f_in)
             for row in reader:
                 query = row[0]
@@ -92,16 +93,15 @@ if __name__ == "__main__":
                 responses.append((query, sources))
 
     # open the output file for writing
-    with open(output, mode="w", newline="") as f_out:
+    with open(out_f, mode="w", newline="") as f_out:
         writer = csv.writer(f_out)
         # write the header
         writer.writerow(["query", "response"])
 
         # generate the llm response
-        for i in range(len(responses) - 1):
-            i += 1  # skip the header of the csv file
-            query = responses[i][0]
-            sources = responses[i][1]
+        for row in responses[1:]: #skips the header
+            query = row[0]
+            sources = row[1]
             llm_response = get_llm_response(query, sources)
 
             # format the row to write
