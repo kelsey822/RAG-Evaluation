@@ -145,28 +145,28 @@ def normalized_discounted_cg(relevances: list) -> float:
     return round(ndcg, 3)
 
 
-def generate_metrics(input: str, output: str, k: int):
+def generate_metrics(in_f: str, out_f: str, k: int):
     """Generates a csv file contains the prompts and the metrics for their retrieved
     documents. Returns the name of the output file.
     """
     # write the metrics to a csv file
-    with open(output, mode="w", newline="") as f_out:
-        output = csv.writer(f_out)
+    with open(out_f, mode="w", newline="") as f_out:
+        out_f = csv.writer(f_out)
 
         # write the header
-        output.writerow(
+        out_f.writerow(
             [
                 "prompt",
-                " precision at k",
-                " mean reciprocal rank",
-                " average precision",
+                "precision at k",
+                "mean reciprocal rank",
+                "average precision",
                 "cumulative gain",
                 "normalized discounted cumulative gain",
             ]
         )
 
         # read in the queries and responses from the csv file
-        with open(input, mode="r", newline="") as f_in:
+        with open(in_f, mode="r", newline="") as f_in:
             responses = csv.reader(f_in)
             # skip the header
             next(responses)
@@ -175,7 +175,15 @@ def generate_metrics(input: str, output: str, k: int):
             for response in responses:
                 query = response[0]
                 sources = response[1 : k + 1]
-                relevances = response[k + 1 : 2 * k + 2]
+                str_relevances = response[k + 1 : 2 * k + 2]
+
+                #convert relevances to ints
+                relevances = []
+                for relevance in str_relevances:
+                    if relevance == '':
+                        relevances.append(0)
+                    else:
+                        relevances.append(int(relevance))
 
                 # get the keywords from the prompts
                 keywords = get_keywords(query)
@@ -185,8 +193,8 @@ def generate_metrics(input: str, output: str, k: int):
                 ap = average_precision(sources, keywords, k)
                 cg = cumulative_gain(relevances)
                 ndcg = normalized_discounted_cg(relevances)
-                output.writerow([query, p_at_k, mrr, ap, cg, ndcg])
-    return output
+                out_f.writerow([query, p_at_k, mrr, ap, cg, ndcg])
+    return out_f
 
 
 if __name__ == "__main__":
