@@ -177,10 +177,10 @@ def generate_metrics(in_f: str, out_f: str, k: int):
                 sources = response[1 : k + 1]
                 str_relevances = response[k + 1 : 2 * k + 2]
 
-                #convert relevances to ints
+                # convert relevances to ints
                 relevances = []
                 for relevance in str_relevances:
-                    if relevance == '':
+                    if relevance == "":
                         relevances.append(0)
                     else:
                         relevances.append(int(relevance))
