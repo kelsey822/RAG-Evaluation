@@ -44,7 +44,7 @@ Note: [policy chat][https://github.com/healthmap/policy_chat_backend] needs to b
 # with policy chat running
 python rag-test.py
 ````
-The data will be saved in a csv file containing the query and source texts as separate columns.
+The data will be saved in a .csv file containing the query and source texts as separate columns.
 
 # Retrieval metrics
 The following metrics are calculated on the retrieval data
@@ -62,3 +62,20 @@ Note: responses.csv must be in the same working directory as metric_calc.py to g
 # with responses.csv already generated including human scored relevances
 python metric_calc.py
 ```
+# Generate a response from an LLM
+Prior to generating responses from an LLM a MistralAI API key is required set as the environment variable ```MISTRAL_API_KEY```. 
+There are two ways to generate a response.
+To generate a response with no retrieved sources from policy-chat created:
+```
+python generate_llm_response.py "Query"
+```
+Note: An input .csv file cannot be provided in the script
+This will pass the query to policy-chat, generate the relevant sources, and then pass to the LLM.
+
+To generate a response with a .csv file of queries and pre-generated sources
+```
+python generate_llm_response.py
+```
+Note: An input .csv file (containing queries and sources) must be provided in the script and in the same directory as the script.
+
+For both methods, the query and llm response will be saved to a .csv file after running.
