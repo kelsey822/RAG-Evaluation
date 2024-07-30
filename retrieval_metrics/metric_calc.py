@@ -196,7 +196,30 @@ def generate_metrics(in_f: str, out_f: str, k: int):
                 out_f.writerow([query, p_at_k, mrr, ap, cg, ndcg])
     return out_f
 
+def individual_relevances(in_f: str, out_f: str):
+    """Writes a csv file with determined relevances. 1 for relevant and 0 for non relevant.
+    """
+    # write the relevances to a csv file
+    with open(out_f, mode="w", newline="") as f_out:
+        out_f = csv.writer(f_out)
+        out_f.writerow(['relevance1', 'relevance2', 'relevance3', 'relevance4', 'relevance5'])
+
+
+        with open(in_f, mode ='r', newline="") as f_in:
+            responses = csv.reader(f_in)
+            #skip the header
+            next(responses)
+
+            #get the relevances for each source
+            for response in responses:
+                keywords = get_keywords(response[0])
+                relevances = []
+                for source in response[1:6]: #first column is the query
+                    relevances.append(get_source_relevance(source, keywords))
+                out_f.writerow(relevances)
+    return f_out
 
 if __name__ == "__main__":
     k = 5
-    generate_metrics("responses.csv", "metrics.csv", k)
+    #generate_metrics("responses.csv", "metrics.csv", k)
+    individual_relevances("responses.csv", "binary_relevance.csv")
