@@ -1,0 +1,601 @@
+prompt,precision at k,mean reciprocal rank,average precision,cumulative gain,normalized discounted cumulative gain
+What are the steps the medical team should take if an infant has not had a hearing screening at the birth hospital or requires a repeat screen as per the hospital policy,0.8,0.521,1.0,10,1.03
+What are the administration guidelines for enteral products in the hospital,0.8,0.521,1.0,12,1.078
+What safetyrelated topics are included in the Mandatory Yearly Reviews MYRs assignments for new employees during their orientation,0.8,0.521,1.0,5,0.662
+What documentation is required for medications used before and during the MWT and any changes to medications within the last 2 weeks,0.8,0.521,1.0,13,1.241
+Who should be notified in the event of a formal HICS activation and how will they be notified,0.8,0.521,1.0,4,0.519
+How often should vital signs be performed and what should the nurse monitor for during the implementation of the procedure,0.8,0.521,1.0,0,0.0
+How can zero balance ultrafiltration ZBUF in bloodprimed CRRT circuits help achieve electrolyte and acidbase homeostasis prior to patient connection and what are the implications for patient care,0.8,0.521,1.0,7,0.601
+How does the document emphasize the importance of recognizing individual differences in patients when following the procedural requirements,0.4,0.333,0.6,1,0.143
+What is the purpose of conducting mandatory shift briefings at the beginning of each shift for the Critical Care Transport Team at Boston Childrens Hospital,0.8,0.521,1.0,4,0.571
+When does the notification of the Respondent start the Inquiry timeline according to the policy,0.2,0.125,0.4,8,0.86
+What are the steps involved in preparing a patient for the Maintenance of Wakefulness Test MWT procedure,0.8,0.521,1.0,7,0.795
+How would you calculate the plasma volume to be treated for a male patient with a hematocrit HCT of 40 weight of 70kg and height of 150cm using the provided factor,0.8,0.521,1.0,3,0.323
+How will all departments be notified that there is an All Clear in the event of a bomb threat or suspicious package,0.8,0.521,1.0,6,0.564
+How should the enteral feeding administration set be primed according to the hospital policy,0.8,0.521,1.0,11,1.108
+What is the responsibility of the RCO if the RIO in consultation with the Compliance Department concludes that an allegation is not credible or does not fall within the scope of the policy,0.6,0.438,0.8,11,1.136
+What are the indications and exclusions for using the MetaNeb system on a patient,0.8,0.521,1.0,3,0.429
+How are new employees informed about their MYRs assignments for safetyrelated topics during their orientation,0.8,0.521,1.0,-5,-0.421
+What are the 2 types of ECMO and what specific support does each type provide,0.8,0.521,1.0,7,0.842
+What is the process for notifying the President  CEO in the event of an activation with time sensitivelife safety concerns,0.8,0.521,1.0,10,1.065
+What are the specific conditions and complications that warrant a repeat hearing screen for infants according to the Joint Committee on Infant Hearing JCIH,0.6,0.438,0.8,8,0.832
+What does HD stand for in the context of hazardous drugs,0.8,0.521,1.0,6,0.652
+How should blood and body fluid spills be managed in a healthcare setting and where can nurses find further information on emergency spill management,0.6,0.396,0.8,9,0.934
+How should deviations from ideal testing times and conditions be documented by the sleep technologist during the MWT,0.8,0.521,1.0,15,1.264
+How should staff involved in the interventional radiology procedure document their count of all countable items in the sterile field throughout the procedure as per the hospital policy,0.8,0.521,1.0,10,0.993
+What are the steps for completing a Manual Chemical Inventory and when would this process be necessary,0.8,0.521,1.0,6,0.752
+How does the occupancy rate and length of stay vary according to the complexity of the patient illness,0.8,0.521,1.0,5,0.421
+What is the recommended process for cleaning and disinfecting electrodes after a Polysomnogram,0.8,0.521,1.0,3,0.223
+How is a postoperative surgical site infection SSI diagnosed according to the hospitals policy,0.8,0.521,1.0,8,0.932
+What procedure should be followed for the original films in the hospitals highprofile legal films policy,0.8,0.521,1.0,7,0.574
+When should needleless connectors be changed and what are the specific exceptions to the 96hour guideline,0.8,0.521,1.0,5,0.537
+What types of diagnostic and therapeutic procedures are performed in the Gastroenterology Procedure Unit,0.6,0.396,0.8,6,0.699
+Where can the Central Venous Catheter Policy document be found,0.6,0.458,0.8,8,0.587
+What are the steps to be taken in case of a discrepancy in any count during an interventional radiology procedure,0.6,0.458,0.8,7,0.551
+What is the proper sequence for doffing PPE when exiting the buffer room after sterile compounding,0.6,0.271,0.8,9,0.952
+What is the purpose of the MetaNeb System in therapy,0.2,0.25,0.2,5,0.662
+How many bed spaces in the unit have the capability to support cardiac respiratory and pulse oximetry monitoring,0.8,0.521,1.0,20,1.685
+What specific content is covered in The Patient Care Manual related to postpyloric feeding tube insertion policy and procedure,0.8,0.521,1.0,8,0.85
+What should Covered Individuals do if they experience a change that would affect their ability to wear a respirator such as significant weight gainloss or change in facial structure due to surgery,0.8,0.521,1.0,5,0.643
+What specific criteria must a patient meet in order to be considered eligible for donor lymphocyte infusion as outlined in SOP  C702 Patient Selection Criteria,0.8,0.521,1.0,6,0.446
+What are the patient populations that may benefit from closed suctioning without manual ventilation,0.8,0.521,1.0,5,0.627
+What is the process for returning identification badges upon termination of employment or assignment,0.8,0.521,1.0,6,0.714
+What is the process for obtaining an ID badge for Medical Staff and what should they do if their badge expires,0.8,0.521,1.0,6,0.635
+What is the age range of patients served by CAIR,0.8,0.521,1.0,0,0.0
+Where can patients and families find the Kidney Biopsy Family Education resources,0.8,0.521,1.0,7,0.813
+What are the preoperative nutritional factors that have been shown to be predictive of a postoperative spinal infection and what are the contributory factors to postoperative spinal fusion complications for children with myelomeningocele,0.6,0.396,0.6,2,0.204
+How should the nurses maintain patient and team member safety during the delivery of electrical therapy as per the hospital policy,0.8,0.521,1.0,1,0.143
+Does our hospital perform onsite cannulation for ECMO and if not what is the protocol for transporting patients who have been cannulated at a referring facility,0.8,0.521,1.0,9,0.862
+What are the potential risks associated with holding enteral feeds around packed RBC transfusions for very low birth weight infants,0.8,0.521,1.0,6,0.68
+In the referenced document what are the key components of the adult basic and advanced life support protocols as outlined by the American Heart Association,0.6,0.438,0.8,-5,-0.421
+What are the steps to be taken if a suspicious package is discovered and deemed significant,0.6,0.458,0.8,11,1.073
+What are the responsibilities of an IND Sponsor in maintaining effective IND prompt reporting and ensuring control and representation of investigational drugs,0.8,0.521,1.0,11,1.083
+How should safety concerns be documented and communicated to management during the shift briefing,0.8,0.521,1.0,8,0.813
+According to the policy who is ultimately responsible for ensuring that all delegates have appropriate training experience and competence to undertake medical management,0.8,0.521,1.0,6,0.503
+When should a bolus feeding be administered via an enteral feeding pump instead of by gravity,0.8,0.521,1.0,13,1.279
+What medications should the CCTT prepare prior to a circuit change according to the hospital protocol,0.8,0.521,1.0,6,0.733
+What are the relevant aspects of a patients care that providers are expected to inform the patient andor parentsguardian about according to the hospital policy,0.8,0.521,1.0,5,0.662
+What guidelines must be followed when reporting adverse events externally,0.8,0.521,1.0,12,1.172
+What does NPO stand for and what does it mean in the context of patient care,0.4,0.333,0.6,1,0.143
+What should a nurse do if a minor refuses consent for a potentially lifesaving treatment and negotiation for consent is unsuccessful,0.8,0.521,1.0,5,0.662
+What is the process for submitting revised consents and recruitment notices for review in the CHeRP system,0.8,0.521,1.0,9,0.947
+What are the expected patient outcomes that we should monitor after the insertion of a postpyloric feeding tube,0.8,0.521,1.0,2,0.286
+In what way are the activities for improving performance in the Food Service Department integrated into the facilitys Quality Assessment  Performance Improvement QAPI Program,0.8,0.521,1.0,6,0.717
+What type of face protection should be worn to protect mucous membranes during activities that may generate splashes or sprays of blood and body fluids as outlined in the hospital policy,0.8,0.521,1.0,10,1.056
+What should a nurse do if a patient with an AICD experiences a malfunction or failure,0.4,0.375,0.6,11,1.088
+How can you verify informed consent if paper consent is not produced in person or sent via email,0.8,0.521,1.0,5,0.633
+What is the process for handling a case of research misconduct if the respondent provides a signed and legally sufficient admission in writing,0.8,0.521,1.0,4,0.571
+What is the purpose of using IV additive transfer sets in the hospital setting,0.8,0.521,1.0,6,0.723
+Where can nurses find the Family Education Sheet for Pregnancy Testing of PostMenarcheal Female Patients at Childrens Hospital,0.8,0.521,1.0,5,0.421
+What are the key findings of the Cochrane systematic review regarding dressing and securement for central venous access devices CVADs,0.8,0.521,1.0,0,0.0
+What steps should be taken by the Onsite North Dartmouth Manager or Designee in response to a water supply problem and how should they communicate with clinical areas throughout the incident,0.8,0.521,1.0,9,1.003
+Why is it important to debrief every transport regarding positive andor negative outcomes with all team members involved,0.8,0.521,1.0,15,1.392
+When is it necessary to obtain the approval of updated information from individuals allowed to consent on behalf of the patient,0.8,0.521,1.0,4,0.484
+What types of testing are included in nutritional testing in the Gastroenterology Procedure Unit,0.6,0.458,0.8,6,0.699
+What are the indications for administering ondansetron to patients presenting at triage with signs and symptoms of gastroenteritis,0.8,0.521,1.0,4,0.571
+What are the business hours for CAIRs outpatient clinic and when are the clinic sessions scheduled,0.8,0.521,1.0,4,0.571
+How are research records handled and what access does the Respondent have during the proceeding according to the research misconduct policy,0.8,0.521,1.0,6,0.59
+How is the MWT test ended and what information needs to be labeled on the lights on page,0.8,0.521,1.0,13,1.251
+In what situations would the hospital retain jurisdiction over research misconduct proceedings as outlined in the policy,0.8,0.521,1.0,3,0.376
+What is the purpose of ensuring timely attention and followup for red flagged incidents that need further discussion and followup,0.2,0.125,0.4,4,0.484
+How can sponsorinvestigators prepare for FDA inspections in order to minimize the likelihood of receiving Form FDA 483 citing objectionable practices,0.8,0.521,1.0,9,0.887
+What is the purpose of newborn hearing screening and what does it entail,0.6,0.458,0.8,5,0.556
+What are the specific requirements for complete patient care documentation as described in the Nursing Standards and Guidelines,0.8,0.521,1.0,10,0.977
+According to the AASM Practice Guidelines what is the recommended duration for the 40minute MWT protocol and when may it be indicated for use,0.8,0.521,1.0,7,0.554
+How does the policy define undue hardship in relation to providing reasonable accommodations for employees,0.8,0.521,1.0,7,0.789
+What are the criteria for diagnosing a superficial incisional Surgical Site Infection SSI,0.6,0.438,0.8,9,1.003
+What steps should be taken to implement Cardiac Resynchronization Therapy Echo for the patient including monitoring and obtaining baseline vital signs,0.8,0.521,1.0,11,1.004
+How many alcohol pads are required for the central venous catheter CVC needleless connector procedure,0.8,0.521,1.0,9,0.744
+How do you record the Lot numbers and Expiration Dates of Liposorber Treatments in the system,0.8,0.521,1.0,8,0.526
+What are the key result indicators KRIs that will be used to measure and assess the identified areas of focus in the QAPI Plan for the Food Service Department,0.8,0.521,1.0,6,0.633
+What precautions should be taken in the transport environment for a patient with an AICD to avoid interference with AICD performance,0.8,0.521,1.0,10,1.056
+How often should the outer set of gloves be changed during compounding in the sterile hazardous drug HD compounding room,0.8,0.521,1.0,10,0.969
+What considerations should be made for a patient undergoing postpyloric feeding tube insertion in terms of antianxiety medication comfort measures and distraction techniques,0.6,0.438,0.8,4,0.366
+What are the concentrations and types of Morphine infusions specified in the document and what are their respective volumes and diluents,0.0,0.0,0,0,0.0
+Who is responsible for receiving the controlled substance upon delivery and who is responsible for delivering it,0.8,0.521,1.0,12,1.132
+How is nursing care in the unit consistent with the Massachusetts Nurse Practice Act ANA standards and the standards and policies of the Department of Nursing,0.8,0.521,1.0,12,1.128
+Are vaccine providers required to obtain a signature acknowledging receipt of a Vaccine Information Statement VIS according to the hospitals policy,0.8,0.521,1.0,6,0.752
+What recommendations should the technologist make to the patient before discharging them from the facility at the end of the study,0.8,0.521,1.0,5,0.429
+What system is utilized for electronic submission of protocols and how does it provide information to IRB members for review,0.8,0.521,1.0,11,1.045
+What specific guidelines or recommendations are outlined in the document for managing a patient with a polyester allergy,0.8,0.521,0.8,1,0.143
+When should focused patientfamily education on the ERAS protocol be provided according to the hospital policies,0.6,0.396,0.8,3,0.376
+Who is responsible for coordinating the chemical inventory reconciliation process on hazardous materials used andor stored in the lab,0.8,0.521,1.0,10,0.815
+What type of medications cannot be administered through a 02micron filter and what are some examples of these medications,0.8,0.521,1.0,3,0.429
+What is the purpose of an Inquiry in the research misconduct policy,0.6,0.438,0.8,5,0.627
+In the event that the incident requires additional resources who does the North Dartmouth Manager notify at the main campus and how can they be reached,0.8,0.521,1.0,8,0.847
+What is the process for determining the credibility of an allegation of research misconduct and who is involved in making this determination,0.8,0.521,1.0,4,0.519
+What is the process for requesting time off to observe a religious holiday according to hospital policy,0.8,0.521,1.0,9,0.861
+How are staff inservices and continuing education programs provided to maintain staff competency and how are educational needs identified for these programs,0.8,0.521,1.0,20,1.685
+What is the circulation cycle example for 300mL whole blood when using the Liposorber MA03 Polic for LDL Apheresis,0.2,0.062,0.4,0,0.0
+What steps should a nurse take if an infant does not pass the Newborn Hearing Screening test prior to discharge,0.8,0.521,1.0,13,1.279
+What is the protocol for administering radiation to female patients age 12 and over,0.8,0.521,1.0,13,1.269
+What are the considerations for Day Surgery DSU patients regarding bringing a Go Bag and home vent for use in PreOp Holding POH and PostAnesthesia Care Unit PACU,0.8,0.521,1.0,-5,-0.421
+According to the Synergy Professional Model of Care how is patient care delivery guided and matched to individual nurse competencies,0.8,0.521,1.0,19,1.595
+What are the most common indications for a Central Venous Catheter CVC according to the hospital policy,0.2,0.125,0.2,19,1.613
+What are the primary functions and services provided by the Gastroenterology Procedure Unit GPU,0.6,0.396,0.8,7,0.842
+What are the steps for implementing the medication challenge with adenosine for a patient undergoing minimally invasive procedures,0.8,0.521,1.0,-5,-0.421
+According to the hospital policies what are the specific guidelines from the American Heart Association for Advanced Cardiac Life Support and Pediatric Advanced Life Support,0.8,0.521,1.0,-5,-0.421
+How should the Heparin Sodium Chloride Injection USP be prepared and used during the apheresis procedure,0.8,0.521,1.0,-5,-0.421
+Where can nurses find information about the Hospitals safety policies and standards,0.8,0.521,1.0,2,0.233
+How should the impervious low shedding HD coverall be worn and what should be ensured before entering the compounding area,0.8,0.521,1.0,8,0.85
+What steps should be taken if the fire suppression system is impacted by an outage at the hospital,0.8,0.521,1.0,17,1.519
+What equipment is required for implementing Cardiac Resynchronization Therapy Echo for the patient undergoing minimally invasive procedures,0.8,0.521,1.0,0,0.0
+What should a patient who relies on ventilator support bring to the hospital on the day of surgery,0.8,0.521,1.0,6,0.752
+What is the duration of validity for informed consent for inpatient services and when would a new consent need to be obtained,0.8,0.521,1.0,7,0.795
+What is the typical composition of the Mobile ECMO team,0.8,0.521,1.0,6,0.688
+How are protocols prioritized for placement on the agenda for review by the IRB,0.8,0.521,1.0,14,1.271
+Who should be notified if an evacuation is required based on the credibility of the bomb threat and what is the process for notifying them,0.8,0.521,1.0,17,1.519
+What are the responsibilities of the consultant in terms of providing ongoing advice and guidance during a patients admission and when can the consultant sign off from their involvement,0.8,0.521,1.0,6,0.733
+In what situations should nurses consult Infectious Disease ID regarding the use of antibiotics,0.8,0.521,1.0,1,0.143
+What exclusion criteria requires further consideration for postpyloric feeding tube insertion in patients,0.8,0.521,1.0,1,0.143
+What regulations govern human subject research supported or funded by the National Institute of Justice NIJ and how do they protect the privacy of individuals,0.8,0.521,1.0,12,1.202
+What specific certifications and licenses are required for a Registered Nurse RN to work at this hospital,0.8,0.521,1.0,5,0.556
+What are the potential causes of a heart murmur in infants and children and why is it important to differentiate between a benign murmur and a murmur indicating heart disease,0.6,0.438,0.8,8,0.657
+What forms are required for LDL Apheresis using Liposorber MA03 Polic and when should they be completed,0.2,0.25,0.4,-5,-0.421
+What are the proper procedures for handling and disposing of sharps to prevent injuries and accidental exposure,0.6,0.438,0.8,1,0.09
+When should a prescriber order for an abdominal xray KUB be obtained after the placement of a postpyloric feeding tube,0.8,0.521,1.0,-5,-0.421
+What equipment is required for procedure planning when administering medication or fluids through a central ven vein according to the hospital policy,0.6,0.271,0.8,-5,-0.421
+How should a nurse ensure proper recordkeeping and documentation related to payments made to clinical investigators case histories and electronic data for studies covered under the IND,0.8,0.521,1.0,6,0.733
+What are the most common organisms involved in surgical site infections SSIs after spinal fusion and what are the specific pathogens for deep SSIs after spinal deformity surgery,0.6,0.438,0.8,0,0.0
+What is the purpose of using a standard MWT protocol consistent with AASM practice parameters,0.8,0.521,1.0,13,1.253
+How should the transfer set and needle be disposed of after transferring the solution to the sterile evacuated container,0.8,0.521,1.0,10,1.065
+What are the requirements for obtaining and maintaining a Privacy Certificate when conducting research funded by NIJ,0.8,0.521,1.0,5,0.59
+What are the two types of reports mentioned in the Documentation section of the Critical Incident Policy and Procedure document,0.6,0.396,0.8,8,0.932
+When should clean gloves be worn according to the hospitals Standard Precautions PolicyProcedure,0.8,0.521,1.0,10,0.883
+What is the activation plan for the CommunicationsTelephone System Failure in North Dartmouth as part of the Hospital Incident Command System HICS,0.8,0.521,1.0,8,0.732
+Where can nurses find the adapted material on the American Society for Healthcare Engineering website,0.8,0.521,1.0,4,0.571
+Where can nurses find guidelines for line choice when considering a CVC for a patient,0.8,0.521,1.0,19,1.542
+What are the potential symptomatic responses a patient may experience during a tilt study and how should the nurse discuss the treatment plan with the prescriber,0.8,0.521,1.0,-5,-0.421
+What are the responsibilities of recipient institutions in communicating research misconduct to the NIH according to NOTOD19020,0.8,0.521,1.0,3,0.429
+What resources are available to assist employees in learning about the Hospitals safety policies and standards,0.8,0.521,1.0,5,0.383
+How can a telephone system disruption affect communication within and outside of the hospital,0.8,0.521,1.0,7,0.795
+What medications are specified for use during a tilt table study and where can the dosing information be found,0.6,0.271,0.8,-5,-0.421
+What type of containers are large volume parenterals LVP transferred to using IV additive transfer sets,0.8,0.521,1.0,4,0.571
+According to the hospital policy what are the required laboratory evaluations prior to receipt of DLI to confirm a patient is appropriate to receive DLI on the day of infusion,0.8,0.521,1.0,-5,-0.421
+Who is responsible for supporting discharge planning and utilization review process on 10NW,0.8,0.521,1.0,10,0.975
+What is the responsibility of PPSQ in investigating and responding to adverse events and when may this responsibility be delegated to the individual or department reporting the event,0.8,0.521,1.0,8,0.913
+Why is it important to avoid using the abbreviation SSRI in medicationrelated documentation,0.0,0.0,0,0,0.0
+When must new gloves bouffant mask and beard cover be donned when moving to a nonHD sterile compounding room,0.8,0.521,1.0,10,0.925
+At what age is a newborn infant defined for the purpose of hearing screening according to the hospital policy,0.8,0.521,1.0,8,0.692
+What are the steps for treating shock according to the CCTT Shock protocol after a successful capture occurs during cardioversion or defibrillation,0.8,0.521,1.0,9,0.94
+When should emergency water be used according to the hospital policy,0.6,0.458,0.8,4,0.571
+What does LVP stand for in the context of IV Additive Transfer Set Standard Operating Procedures,0.6,0.458,0.6,8,0.932
+What are the most common indications for a central venous catheter CVC according to the hospital policy,0.8,0.521,1.0,15,1.264
+What are the criteria for discharging a patient from the PACU to home according to the hospitals policy,0.8,0.521,1.0,9,1.003
+What is the proper technique for connecting the transfer set to the LVP bottle,0.6,0.438,0.8,-5,-0.421
+What are the different data collection methods used by the Department of Orthopedics for quality improvement and why are they important for patient care,0.8,0.521,1.0,12,1.218
+What is the stance of Boston Childrens Specialty Pharmacy on the formal discharge process for patients completing a course of therapy or changing pharmacy providers,0.8,0.521,1.0,5,0.662
+How should disposable equipment such as the nasal cannula or disposable oximeter probe be handled after use,0.8,0.521,1.0,16,1.464
+How is the determination of undue hardship made when considering a request for accommodation for a pregnancy or pregnancyrelated condition at Boston Childrens Hospital,0.8,0.521,1.0,4,0.571
+When was the document Specialty Pharmacy  Access to Services Performancpdf last updated by the Document Owner,0.8,0.521,1.0,0,0.0
+What are the responsibilities of sponsorinvestigators in establishing recordkeeping and retention systems according to Subpart D of the hospitals policies,0.8,0.521,1.0,9,1.003
+How should ventilated patients be monitored for changes in compliance and increased CO2P CO2 levels,0.8,0.521,1.0,6,0.519
+How are Adverse Drug Events ADEs categorized and what are the two main categories for ADEs,0.8,0.521,1.0,6,0.733
+Why is there uncertainty regarding the causal association between red blood cell transfusions and NEC in neonates,0.8,0.521,1.0,4,0.357
+What are some examples of reasonable accommodations for a pregnancy or pregnancyrelated condition that Boston Childrens Hospital may provide to employees,0.8,0.521,1.0,5,0.662
+What is the recommended technique for inserting the distal end of the administration set into the filter inlet,0.6,0.458,0.8,4,0.571
+Where can additional information on the HICS Organizational Chart be found,0.2,0.125,0.2,4,0.466
+Where should minors requesting a termination of pregnancy be referred to in order to obtain the appropriate consent or court order,0.8,0.521,1.0,4,0.571
+How should indwelling nasogastric feeding tubes be inserted and managed according to the hospital policy,0.6,0.458,0.8,-5,-0.421
+According to the Synergy Professional Model of Care how are patients assigned to nurses based on their individual competencies and patient needs,0.8,0.521,1.0,17,1.5
+How should nurses document specific information for patients undergoing minimally invasive electrophysiology studies including medication administration procedure events sedation scoring and patient disposition,0.8,0.521,1.0,5,0.662
+What are the expectations for every employee in maintaining a safe environment at Boston Childrens,0.8,0.521,1.0,12,1.103
+According to the guidelines for the prevention of intravascular catheterrelated infections what are some strategies to prevent central LineAssociated bloodstream infections in acute care hospitals,0.8,0.521,1.0,0,0.0
+When should a nurse contact the Medical Control Physician regarding patients with cardiac arrhythmias,0.8,0.521,1.0,4,0.571
+What is the required confirmation for central venous access and double lumen Vortex Ports during the Apheresis Procedure Consents,0.8,0.521,1.0,-4,-0.366
+What are the indications for performing synchronized cardioversion and defibrillation in a clinical setting,0.6,0.438,0.8,-4,-0.366
+What are the annual requirements for a psychologist PhDPsyD to maintain their Massachusetts Psychology license at our hospital,0.8,0.521,1.0,6,0.633
+How long does the hospital retain records related to Research Misconduct proceedings and what documentation is included in this retention,0.6,0.438,0.8,5,0.662
+Who should the nurses confirm with regarding the appropriateness of a trachdependent patient for discharge from the postanesthesia care unit PACU to the day surgery unit DSU,0.8,0.521,1.0,9,0.947
+Who is responsible for notifying the Senior Clinical Leadership Committee SCLC of any formal HICS activation,0.8,0.521,1.0,20,1.685
+What are the potential problems associated with using the abbreviation U in patient care documentation,0.6,0.271,0.8,2,0.286
+How does the OPS collaborate with primary care pediatric and specialty pediatric care providers as well as community behavioral clinicians in delivering behavioral health care services,0.8,0.521,1.0,8,0.932
+How can a nurse access a surgical services ERAS protocol,0.8,0.521,1.0,5,0.662
+What are the qualifications and certifications required for HSCT Hospitalists HH to provide overnight medical care for Pediatric Hematopoietic Stem Cell Transplant HSCT patients,0.8,0.521,1.0,5,0.509
+What are the specific items included in the accurate Interventional Radiology count procedure for sharps guidewires and sponges,0.6,0.438,0.8,13,1.193
+What is the title of the document and what is the header of the specific section referenced,0.2,0.125,0.4,-5,-0.421
+How are Associated Personnel ID badges issued and what should Associated Personnel do if their badge expires,0.8,0.521,1.0,4,0.571
+How can you determine if an individual listed under CHB Staff is considered an authorized prescriber at BCH,0.8,0.521,1.0,11,1.063
+What is the title of the document related to pressure injury prevention for seat cushions,0.8,0.521,1.0,-5,-0.421
+Who is required to be present at the bedside for the circuit change as per the hospital protocol,0.8,0.521,1.0,4,0.571
+How is average abandonment rate calculated in the context of a call centers automatic call distribution ACD system,0.6,0.458,0.8,8,0.932
+Where can the NIRS electrode be obtained for a tilt table study in the CICU,0.8,0.521,1.0,5,0.662
+What is the process for obtaining consent for the administration of blood or blood components during a patients hospital stay,0.8,0.521,1.0,8,0.932
+What is the purpose of the Huddle SBAR Script mentioned in the document,0.4,0.312,0.4,1,0.143
+What is the process for using a patients medical information including tissue implants or related biological materials for research purposes at Boston Childrens Hospital,0.8,0.521,1.0,8,0.932
+What is the date of approval for the Approval Signatures section of the USP 797 Environmental Monitoring Plan,0.8,0.521,1.0,0,0.0
+What precautions should be taken when changing needleless connectors and who is required to wear a mask within 6 feet of the patient,0.8,0.521,1.0,9,0.87
+When should the Transfusion Medicine Physician or Designee be notified regarding any changes in the patients vital signs during the LDL Apheresis procedure,0.8,0.521,1.0,2,0.233
+What actions are taken by the IRB when a research protocol is conditionally approved and how are these actions documented,0.8,0.521,1.0,8,0.759
+What are the potential symptomatic responses a patient may experience during the adenosine medication challenge and how should they be treated,0.8,0.521,1.0,-5,-0.421
+What is the filename of the document related to Project Day Request Form,0.6,0.396,0.8,-5,-0.421
+When is inline suctioning considered for patients with an artificial airway and what factors are considered in making a suction plan for these patients,0.8,0.521,1.0,2,0.233
+What is the main focus of the Care of Patients After Termination of Pregnancy document,0.6,0.271,0.6,9,0.987
+How can the information in the document Enhanced Recovery After Surgery ERASpdf be utilized to improve patient care in the hospital,0.8,0.521,1.0,5,0.662
+What is the header of the Project Day Request Form document,0.8,0.521,1.0,-5,-0.421
+In joint proceedings with HMS what is the next step after the final report with conclusions and recommendations is sent for consideration of the HMS Standing Committee on Faculty Conduct,0.6,0.396,0.8,12,1.218
+What gauge fistula needle is required for a draw and return during LDL Apheresis using Liposorber MA03 Polic,0.4,0.333,0.6,4,0.571
+What is the title of the document and what specific topic does it address,0.2,0.25,0.2,-5,-0.421
+What are the responsibilities of the primary and secondary reviewers for new protocol applications in the IRB process,0.8,0.521,1.0,8,0.932
+In what instances should humidified supplemental oxygen therapy be administered to patients in the PACU,0.8,0.521,1.0,4,0.571
+What are the consequences for employees who do not complete a required periodic health screening after being notified of the requirement,0.6,0.458,0.8,2,0.286
+What are the potential consequences of not documenting the care teams activities related to the patients perioperative care,0.8,0.521,1.0,1,0.143
+When was the document An Administrative Guide to Onboarding NonBCH Emplpdf approved by the Medical Staff Executive Committee MSEC,0.8,0.521,1.0,-5,-0.421
+What is the step description related to Approval Signatures in the document Specialty Pharmacy  Pharmacist Responsibility forpdf,0.8,0.521,1.0,7,0.842
+What is the purpose of the Seat Cushion Algorithm for Pressure Injury Prevention document,0.6,0.271,0.6,1,0.143
+What are the common risk factors for acquiring CarbapenemResistant Enterobacteriaceae CRE in the hospital setting,0.4,0.208,0.6,-5,-0.421
+What are the administration guidelines for the antifibrinolytic agent Aminocaproic Acid Amicar for patients receiving ECMO,0.8,0.521,1.0,-5,-0.421
+What is the date of approval for the NICU Steering Committee in the document Enteral Feeding during Red Blood Cell Transfusionpdf,0.4,0.188,0.6,4,0.571
+How often should the CCTT RN document ECMO flow rpm and sweep gas and where should this documentation be recorded,0.8,0.521,1.0,8,0.76
+How is voting documented at a convened IRB meeting and what is the process for minority reporting,0.8,0.521,1.0,8,0.789
+When should films be flagged with an iridescent sticker and what does the sticker indicate,0.4,0.208,0.6,0,0.0
+What are the guidelines regarding sharing photos videos or recordings of a patient through social media or as part of a public affairs event,0.8,0.521,1.0,7,0.813
+According to the hospital policy what is the basis for sleepstage scoring in the Adult MWT Protocol,0.6,0.458,0.8,11,1.136
+What are the addresses of the outpatient care locations for the Department of Psychiatry  Behavioral Health Services,0.8,0.521,1.0,0,0.0
+What are the steps to be taken if a patient has gross hematuria during Cyclophosphamide administration,0.8,0.521,1.0,5,0.662
+What are the recommended methods for administering enteral feedings and what should be avoided to prevent inadvertent administration via the intravenous route,0.8,0.521,1.0,20,1.685
+What services are offered by the Outpatient Psychiatry Service OPS for children and adolescents,0.8,0.521,1.0,10,1.056
+What is the title of the attached file related to the environmental monitoring plan,0.4,0.375,0.6,-5,-0.421
+How should the catheter be flushed after suctioning and what should be done when thick secretions are present in small diameter airways,0.8,0.521,1.0,10,0.977
+Who is responsible for the final review of all reports of action before they are sent to principal investigators,0.8,0.521,1.0,5,0.609
+Where can the additional HICS Organizational Chart be found for reference during an emergency situation,0.2,0.125,0.2,14,1.2
+What is the main focus of the document Murmurspdf and why is it important for nurses to understand,0.4,0.146,0.6,0,0.0
+Who is responsible for ensuring that actions and sanctions related to Allegations of Research Misconduct are implemented promptly and that appropriate parties are notified,0.8,0.521,1.0,6,0.575
+How should the provider place orders using the Sepsis SBAR and confirming team member response,0.8,0.521,1.0,9,0.975
+According to the PHS Policy what is the focus of the policy on Humane Care and Use of Laboratory Animals,0.6,0.458,0.8,10,0.831
+How should the team be involved in the sepsis huddle at the bedside as outlined in the hospital policy,0.8,0.521,1.0,-5,-0.421
+When can a splitnight study be performed and what specific criteria must be met during the diagnostic portion of the study before initiation of PAP,0.6,0.458,0.8,10,1.075
+Who is responsible for alerting all appropriate staff providers patients and families about a water supply problem at North Dartmouth,0.8,0.521,1.0,9,0.905
+How should the surface of the rubber closure on a glass evacuated container be prepared before transferring the sterile solution,0.8,0.521,1.0,11,1.036
+How are amendmentsrevisions that do not meet the criteria for expedited review handled during a convened IRB meeting,0.8,0.521,1.0,10,1.03
+How should a positive response to MetaNeb therapy be monitored and what schedule should be followed if the patient shows improvement,0.6,0.458,0.8,4,0.571
+What are the clinical needs or diagnoses that require the use of the High Risk Suctioning Procedure as outlined in the hospital policy,0.8,0.521,1.0,-5,-0.421
+How is quorum defined for a convened IRB meeting and what happens if a quorum is lost during a meeting,0.4,0.333,0.6,4,0.571
+What specific statements are included in the Protocol Statements for DoseAdministration of Ondansetron at Triage,0.0,0.0,0,4,0.571
+What is the immediate action to be taken upon receiving information regarding a suspicious package or bomb threat at North Dartmouth as per the hospital policy,0.8,0.521,1.0,14,1.334
+What should a nurse do if a patient or parentguardian expresses a preference for not having anyone observe their procedure,0.4,0.146,0.6,12,1.218
+Where can the documentation of the QMC meeting minutes be found,0.8,0.521,1.0,20,1.685
+How should nurses accommodate patients with a polyester allergy in the hospital setting,0.8,0.521,1.0,4,0.571
+How is patient and family satisfaction measured at CAIR and what specific tool is used for this purpose,0.8,0.521,1.0,0,0.0
+What procedures are performed in the Gastroenterology Procedure Unit,0.8,0.521,0.8,9,0.76
+How does the document Murmurspdf address care coordination for patients with cardiac murmurs,0.8,0.521,1.0,4,0.571
+How should the successful completion of Set Up Rinsing and Priming of the MA03 be documented in the LDL Apheresis Treatment Record,0.4,0.208,0.6,-5,-0.421
+Where can nurses find information about Ambulatory Clinical Assessment in the hospital policies,0.8,0.521,1.0,10,0.974
+What should nurses do if they find a kit component that fails inspection during LDL Apheresis treatment,0.2,0.062,0.4,5,0.633
+What is the definition of Enhanced Recovery after Surgery ERAS u00ae  according to the American Association of Nurse Anesthetists,0.6,0.458,0.8,-5,-0.421
+What is the definition of a consultation as per the hospitals Medical Staff Consultations PolicyProcedure,0.6,0.396,0.8,6,0.733
+Who should be contacted in the event of a water supply problem at the hospital,0.8,0.521,1.0,16,1.464
+What are the contraindications for administering ondansetron to patients at triage,0.4,0.188,0.6,4,0.571
+What are the options for using the MetaNeb Circuit and what are the components required for each option,0.4,0.375,0.6,0,0.0
+How soon should reports of action be forwarded to investigators after a convened IRB meeting,0.8,0.521,1.0,8,0.762
+What potential device disruptions can be triggered by a water supply problem and who is responsible for overseeing the distribution of water as needed,0.8,0.521,1.0,13,1.153
+What is the process for incorporating the comments of the Respondent and Complainant in the draft report during a review of research misconduct,0.8,0.521,1.0,10,1.065
+What are the qualifications required for dietitians to provide nutritional care to patients in this hospital according to the policy,0.8,0.521,1.0,10,1.065
+What is the responsibility of the Quality Management Committee QMC regarding telephone metrics analysis,0.8,0.521,1.0,8,0.932
+What are the steps for confirming proper placement of a postpyloric feeding tube and when can the tube be used for feeding,0.8,0.521,1.0,5,0.503
+What is the definition of an Adverse Event according to the hospitals policy,0.4,0.375,0.6,7,0.58
+Who is responsible for publishing the NPCO in the document Specialty Pharmacy  Discharge from Pharmacy Servipdf and what is the date of publication,0.8,0.521,1.0,2,0.286
+What is the first step for the assessing RN when administering Ondansetron at triage according to the hospital policy,0.8,0.521,1.0,20,1.685
+Why is the use of the Reviewer Worksheet mandatory for the primary and secondary reviewers in the IRB electronic system,0.8,0.521,1.0,5,0.59
+What is considered an essential function of a position according to the hospitals pregnancy and pregnancyrelated accommodations policy,0.8,0.521,1.0,3,0.27
+What personal protective equipment PPE is required for nurses when performing suctioning of an artificial airway as outlined in the hospital policy,0.8,0.521,1.0,3,0.429
+What are the steps involved in bypassing ultrafiltration of bank blood before a blood transfusion,0.8,0.521,1.0,-5,-0.421
+Where can nurses find the forms or templates for completing the Adverse event report and Insurance accident report mentioned in the hospital policies,0.6,0.271,0.8,3,0.376
+How does the specialty pharmacy ensure patient access to services according to hospital policy,0.8,0.521,1.0,15,1.357
+Who are the approvers for the Pharmacy  Therapeutics section of the document and what are their respective approval dates,0.6,0.438,0.8,1,0.143
+What are the criteria for making a finding of Research Misconduct according to the hospitals policy,0.6,0.458,0.8,10,1.065
+What steps should be taken to verify that a patient has a yes value under Consent Signed in CHeRP,0.6,0.396,0.8,4,0.571
+What factors does the Department of Children and Families DCF consider when making a determination about providing psychiatric treatment or administering Psychotropic medications to a child under their care and protection,0.8,0.521,1.0,13,1.241
+Who is the approver for the publication of the Hazardous Drug PPE for Sterile Compounding  SOP document,0.8,0.521,1.0,0,0.0
+What is the expected timeframe for completing nonurgent consults and under what circumstances can this timeframe be adjusted,0.0,0.0,0,1,0.143
+What are the species covered for antibody production according to the hospital policy,0.8,0.521,1.0,6,0.646
+What documentation is required to confirm the placement of the feeding tube prior to use,0.8,0.521,1.0,16,1.415
+What are the different types of safe patient handling equipment available to assist with patient mobilization,0.8,0.521,1.0,5,0.447
+What steps should be taken to preserve research records and evidence in the event of research misconduct,0.8,0.521,1.0,6,0.752
+Which specific body fluids secretions and excretions are included in the application of Standard Precautions as outlined in the policy,0.8,0.521,1.0,8,0.932
+According to the hospitals policy what are the guidelines for initial ventilatory support for pediatric patients receiving ECMO,0.8,0.521,1.0,-5,-0.421
+How should the machine be cleaned following each use according to the hospital policy,0.6,0.458,0.8,-5,-0.421
+How should a nurse perform a vigorous mechanical scrub to the needleless connector with alcohol pad,0.8,0.521,1.0,-5,-0.421
+In the event of a failure requiring additional resources who is responsible for notifying the Satellite Administrator on Call AOC and what is their contact information,0.8,0.521,1.0,4,0.571
+How can a nurse obtain access to the job documents such as the Patient Care Manual and Ambulatory Clinical Assessment if they have restricted access,0.8,0.521,1.0,8,0.646
+Who is considered a part of the Medical Staff as defined in the Boston Childrens Hospital Medical Staff Bylaws,0.8,0.521,1.0,7,0.788
+What vital signs should be monitored preprocedure hourly during treatment and postprocedure for a patient undergoing LDL Apheresis Using Liposorber MA03 Polic,0.8,0.521,1.0,2,0.286
+Who is responsible for approving the Training and Education Requirement Policy according to the document,0.8,0.521,1.0,4,0.571
+In research that does not involve federal funding what option does the RIO have for conducting an inquiry and investigation for a more streamlined and timely review,0.8,0.521,1.0,3,0.429
+Under what circumstances should CPAP therapy be initiated during a diagnostic study for a splitnight study,0.4,0.375,0.6,5,0.662
+What are the recommended sizes for postpyloric feeding tubes and when should a 10 Fr 43 in feeding tube be considered,0.8,0.521,1.0,-5,-0.421
+How long do Multiple Wakefulness Tests MWT trials typically last and under what circumstances may a 20minute trial be ordered,0.8,0.521,1.0,14,1.315
+What is the contact information for Security Manager Mark Tulipano in case of timesensitivelife safety concerns,0.8,0.521,1.0,20,1.685
+Who is the Cochair Approval for the onboarding process,0.4,0.375,0.4,1,0.071
+What equipment and medications are required for an esophageal study procedure,0.6,0.438,0.8,4,0.571
+What is the protocol for HSCT patients in the Emergency Department and who is responsible for coordinating their care in this setting,0.8,0.521,1.0,5,0.662
+What are the guidelines for administration of medication by the enteral tube route as mentioned in the document,0.8,0.521,1.0,12,1.153
+What specific information should the PACU nurse provide to the unit nurse before transfer using the IPASS report tool,0.8,0.521,1.0,9,0.969
+What are the specific postboil water instructions that hospitals need to follow during a water supply problem,0.8,0.521,1.0,5,0.421
+What are the specific conditions that require contacting the Medical Control Physician before transport,0.8,0.521,1.0,9,1.003
+What are the responsibilities of the Registered Nurses RNs working in the 10 Northwest inpatient surgical unit,0.8,0.521,1.0,7,0.842
+How should the nursing staff respond if there is a suspected or confirmed contamination of water within the water supply system at North Dartmouth,0.8,0.521,1.0,7,0.63
+What are the specific situations that require gown and glove use for contact with patients known to be colonized with a MDRO,0.8,0.521,1.0,9,1.003
+What supplies are needed for the central venous catheter CVC needleless connector procedure,0.8,0.521,1.0,12,1.192
+What are the types of evidencebased psychotherapies that OPS clinicians provide and in what delivery options are they available,0.4,0.375,0.6,4,0.571
+How soon should an adverse or near miss event be reported and through what channels should it be reported according to the hospitals policy,0.8,0.521,1.0,11,1.03
+According to the Patient Care Manual what are the steps for identifying and verifying a patient before a minimally invasive procedure,0.8,0.521,1.0,2,0.233
+When does the convened IRB typically meet and how much notice do IRB members receive prior to the meeting,0.8,0.521,1.0,0,0.0
+What symptoms is Ondansetron intended to provide rapid relief for in patients,0.0,0.0,0,7,0.842
+What action is suggested in the text related to the attached file,0.6,0.458,0.6,-5,-0.421
+What should the clinical team do if a patient or family objects to the use of blood or blood products for religious or other reasons,0.8,0.521,1.0,8,0.932
+What equipment and materials are required for cleaning the MA03 Apheresis System,0.2,0.062,0.4,4,0.571
+Under what circumstances can the team composition be altered according to the hospital policy,0.6,0.438,0.8,3,0.429
+How is Earned Time deducted for Exempt Employees on Observed Holidays occurring on weekdays,0.8,0.521,1.0,16,1.376
+What is the process for suggesting a voting action at a convened IRB meeting,0.8,0.521,1.0,8,0.932
+What are the annual requirements for a Registered Nurse RN to maintain compliance with hospital policies and the Massachusetts Nurse Practice Act,0.8,0.521,1.0,13,1.273
+How should a nurse initiate the use of a patient handling device according to the hospital policy,0.8,0.521,1.0,4,0.571
+According to the Holidays and Holiday Pay Policy what is the holiday premium pay for time worked by a NonExempt or Exempt Plus Employee on an Observed Holiday,0.8,0.521,1.0,10,0.979
+What are the steps for installing the Liposorber MA03 LDL Adsorption Column,0.6,0.458,0.8,0,0.0
+In cases of suspected child abuse who should the nurses contact according to the hospital policy,0.8,0.521,1.0,12,1.153
+What is the title of the document that provides a guide to onboarding nonBCH employed physicians,0.0,0.0,0,-5,-0.421
+Which types of catheters are included in the category of Dialysis and Apheresis Catheters once converted,0.8,0.521,1.0,20,1.685
+How are unit and hospital wide guidelines and protocols for patient management utilized evaluated and updated at Childrens Hospital Boston Department of Nursing,0.8,0.521,1.0,20,1.685
+What are the steps to be followed for preparing the return of blood during the LDL Apheresis procedure as outlined in the document,0.6,0.438,0.8,-5,-0.421
+What is the process for obtaining a replacement ID badge if the employees name and ID number is not active or cannot be identified in the system,0.8,0.521,1.0,5,0.643
+What are the steps involved in rinsing and priming the LA15 for LDL Apheresis using Liposorber MA03,0.6,0.458,0.6,-5,-0.421
+Where can nurses find the hospital guidance for disclosing adverse events as mentioned in the document,0.8,0.521,0.8,1,0.071
+What is the role of a Communications Specialist in relation to the Transport Team and other medical personnel involved in transport,0.8,0.521,1.0,10,1.075
+When should the Senior Leadership Communication Center SCLC be notified of a formal HICS activation,0.8,0.521,1.0,20,1.685
+What are the essential elements for continuous cardiorespiratory monitoring during cardioversion defibrillation and pacing procedures,0.2,0.25,0.4,-5,-0.421
+What equipment is typically used for transferring blood from the pump circuit to the cell saver,0.8,0.521,1.0,7,0.842
+What are the potential sources of transmission for CRE and how can healthcare workers minimize the risk of spreading the infection to other patients,0.8,0.521,1.0,0,0.0
+Who is responsible for orienting new employees to departmentspecific hazards and ensuring all employees receive safety continuing education on department specific safety concerns,0.8,0.521,1.0,8,0.609
+What is the recommended protocol for treating shock after a successful conversion to a perfusing rhythm following cardioversion or defibrillation,0.6,0.438,0.8,-5,-0.421
+Who is responsible for managing the response to a suspicious package or bomb threat at North Dartmouth according to the hospital policy,0.8,0.521,1.0,20,1.685
+What are some examples of films that must be kept in a more secure location according to the hospital policy,0.8,0.521,1.0,8,0.857
+How do you bleed air from the arterial line during the rinse process and what should you do when the rinse mode is complete,0.4,0.375,0.6,-5,-0.421
+Who is authorized to handle the return of controlled substances  a nurse pharmacy technician or intern,0.8,0.521,1.0,6,0.752
+Who is the designated Approver for the step described in the Approval Signatures section of the PFS  PCP Discrepancy PolicyProcedure document,0.4,0.312,0.6,0,0.0
+What parameters should be monitored during and after suctioning an artificial airway,0.6,0.458,0.8,-5,-0.421
+When is it necessary for the Primary Provider to have a discussion with the patient andor the parentguardian prior to the start of a recommended procedure intervention or treatment,0.8,0.521,1.0,7,0.756
+How are events classified and recorded in the Safety Event Reporting System SERS at Boston Childrens Hospital,0.8,0.521,1.0,12,1.039
+What are the key steps for verifying the prescribers order for enteral feeding schedule type volume and duration,0.8,0.521,1.0,-5,-0.421
+What procedures and services are performed in CAIR during outpatient visits,0.8,0.521,1.0,10,1.049
+When should direct communication between the attending medical staff member and consultant be initiated for a patient with critical issues,0.8,0.521,1.0,4,0.571
+What are the potential reasons for discharging a patient from the specialty pharmacy,0.8,0.521,1.0,4,0.571
+How should nurses document specific Safe Lifting Transferring and Moving Patients and Equipment information according to the Patient Care Manual,0.8,0.521,1.0,6,0.704
+How should Occupational Health serve as a resource for questions related to Standard Precautions as outlined in the hospital policy,0.8,0.521,1.0,9,0.947
+What are the recommended administration methods for enteral feedings by gravity,0.8,0.521,1.0,16,1.464
+Who is the NPCO Signatory 2 and what is their role in the approval process for enteral feeding during red blood cell transfusion,0.8,0.521,1.0,0,0.0
+How does the hospitals policy recommend handling the draft investigation report and what input is requested from the Respondent and Complainant,0.8,0.521,1.0,11,0.948
+How should the nurse assess the functional mobility of a patient to determine the most appropriate method of mobilization,0.8,0.521,1.0,5,0.503
+What certifications and licenses are required for all RNs working in the Gastroenterology Procedure Unit,0.6,0.396,0.8,6,0.733
+What action is requested in the text related to the attached file,0.4,0.375,0.6,-5,-0.421
+What practice parameters do splitnight studies follow according to the AASM,0.6,0.396,0.8,6,0.733
+What are the specific requirements for the sterile nitrile gloves used during the compounding of hazardous drugs as per the hospital policy,0.8,0.521,1.0,14,1.296
+What are the different concentrations and volumes of Fentanyl and Midazolam infusions listed in the document,0.6,0.271,0.8,4,0.571
+What should be done if a patient has a Sepsis Trigger Tool score of 4 or higher,0.6,0.438,0.8,5,0.503
+What is the time frame for giving a fluid bolus to a patient if needed as per hospital policy for sepsis management,0.8,0.521,1.0,5,0.662
+What are the annual requirements for staff members in terms of hospital competencies and selfevaluation,0.8,0.521,1.0,7,0.656
+When should a patient with a new murmur be referred to cardiology for further evaluation,0.8,0.521,1.0,5,0.662
+What are the requirements for an advance practice provider APP to provide overnight medical care for Pediatric Hematopoietic Stem Cell Transplant HSCT patients,0.8,0.521,1.0,7,0.823
+When should the Medical Control Physician be contacted according to the clinical protocol,0.8,0.521,1.0,11,1.075
+Who is responsible for notifying all departments and the Satellite AOC when there is an All Clear at North Dartmouth,0.8,0.521,1.0,20,1.685
+Which types of catheters are included in the category of Dialysis Catheters and Apheresis Catheters once converted,0.8,0.521,1.0,20,1.685
+Who is responsible for gathering surgical supplies if a surgeon will be participating in the Mobile ECMO transport,0.8,0.521,1.0,5,0.59
+What licenses and certifications are required for an Advanced Practice Registered Nurse APRN in Massachusetts,0.8,0.521,1.0,9,1.003
+Who is included in the scope of personnel involved in the post anesthesia care unit at all BCH sites,0.8,0.521,1.0,4,0.466
+How is the primary reviewer of an unanticipated event expected to present the event and provide comments during the convened IRB meeting,0.8,0.521,1.0,5,0.537
+What steps should be taken before initiating LDL Apheresis treatment using the LIPOSORBERu00ae LA15 System,0.4,0.208,0.6,5,0.662
+What should a nurse do if it is not clear whether a cognitively limited adult patient has sufficient understanding of a procedure to provide informed consent,0.8,0.521,1.0,8,0.688
+What is the total fulltime equivalent FTE for psychology interns in the staffing plan,0.6,0.458,0.8,2,0.233
+What is the required action for investigators before their protocols are placed on the IRB meeting agenda,0.8,0.521,1.0,12,1.192
+According to the hospital policy what is the time limitation for dismissing an Allegation of Research Misconduct,0.6,0.438,0.8,9,1.003
+How should nurses document the patients weight allergies time dose delivery system and assessments during the medication administration process,0.8,0.521,1.0,17,1.519
+What is the recommended procedure for attaching the mask to the 22mm adapter when using the MetaNeb system as per the instructions on page 18 of the User Manual,0.8,0.521,1.0,4,0.571
+What are examples of clinical treatments and procedures that require a written consent form according to the hospital policy,0.8,0.521,1.0,6,0.723
+When should gravity feedings be administered and what equipment should be available at the patient bedside at all times,0.6,0.458,0.8,6,0.575
+What is the process for accessing the intraoperative report containing information about who was in the room during a procedure intervention or treatment,0.8,0.521,1.0,-5,-0.421
+What considerations should be made for trach and ventdependent patients in terms of postoperative planning,0.8,0.521,1.0,5,0.609
+When are transport nurse specialists and transport paramedics authorized to perform transcutaneous pacing on patients,0.8,0.521,1.0,20,1.685
+According to the Pennsylvania Patient Safety Advisory what measures are recommended for preventing the retention of foreign objects during interventional radiology procedures,0.8,0.521,1.0,0,0.0
+What steps should be taken to ensure all paste residue is removed from the patients skin after removing the electrodes,0.8,0.521,1.0,16,1.464
+What signs or symptoms should prompt a surgeon to consider a deep incisional SSI in a patient with a spinal fusion implant in place,0.8,0.521,1.0,8,0.932
+What are the criteria for reporting an event through the hospitals internal webbased Safety Event Reports System SERS and how should adverse drug events be reported,0.8,0.521,1.0,11,1.12
+According to the Patient Care Manual what are the guidelines for patient assessment documentation,0.8,0.521,1.0,12,1.218
+What is the primary responsibility of the Institutional Review Board IRB at Boston Childrens Hospital and what does the IRB review research protocols for,0.8,0.521,1.0,6,0.752
+What is the main focus of the guideline statements provided in the document regarding trach and trachventdependent patients,0.6,0.458,0.8,10,1.075
+How does the hospital aim to continuously improve care delivery and patient outcomes and what specific focus areas are emphasized,0.8,0.521,1.0,14,1.334
+What are the responsibilities of CH EmployeesStaff regarding Standard Precautions according to the hospital policy,0.8,0.521,1.0,8,0.932
+When should 12micron filters and tubing be changed and under what circumstances should the change frequency be adjusted,0.6,0.458,0.8,4,0.571
+When should the attending medical staff member request additional consultation from the same consultant or another service,0.8,0.521,1.0,5,0.421
+How should the huddle in sepsis trigger tool be documented and what information should be included in the documentation,0.8,0.521,1.0,5,0.662
+What is the header of the document Admission,0.4,0.333,0.6,-5,-0.421
+What are the target ranges for pH PCO2 PO2 HCO3 K Na and Ionized Ca in the Circuit Panel lab results before patient interaction,0.8,0.521,1.0,-5,-0.421
+What is the date of required departmental reviewapproval for the document,0.8,0.521,1.0,0,0.0
+How do you calculate the plasma volume for FSGS patients in order to determine the amount to be treated during LDL Apheresis treatment,0.8,0.521,1.0,4,0.571
+How should a nurse document the time and date of hearing screening on the Vital Signs Flow Electronic Documentation Sheet,0.8,0.521,1.0,7,0.76
+What is the concentration of the Morphine Neonatal Liq in milligrams per milliliter,0.4,0.146,0.6,-5,-0.421
+What is the date of publication for the Hazardous Drug PPE for Sterile Compounding  SOP document,0.6,0.396,0.8,0,0.0
+What are the key components required to be discussed with the patient andor parentguardian before obtaining informed consent at Boston Childrens Hospital,0.8,0.521,1.0,5,0.662
+What is the purpose of a tilt table test and what does it involve,0.6,0.396,0.8,4,0.571
+What type of dressing is recommended for postpyloric feeding tube insertion,0.8,0.521,1.0,0,0.0
+What information should be documented in the Respiratory ROS section of the PAEF for ventdependent patients during preoperative planning,0.8,0.521,1.0,3,0.429
+What is the specified header under which the procedures for handling original films are outlined in the hospitals policy document,0.4,0.146,0.6,-5,-0.421
+What is the purpose of a sepsis huddle and when should it be initiated according to the hospital policy,0.8,0.521,0.8,4,0.361
+What are the components and concentrations of Epidural 2 solution,0.6,0.396,0.8,0,0.0
+How should a nurse prime the filter to remove air and what should they do if they notice air bubbles in the filter and tubing,0.8,0.521,1.0,9,1.003
+What specific certifications and qualifications are required for MDsDOs in the Department of Psychiatry  Behavioral Health Services according to the document,0.8,0.521,1.0,1,0.09
+How are staffing plans developed at the hospital based on the American Nurses Association principles of Nurse Staffing and what factors do these principles address,0.8,0.521,1.0,10,1.018
+What is the process for deactivating an incident at North Dartmouth according to the hospital policy,0.8,0.521,1.0,17,1.519
+What equipment is required for noninvasive blood pressure monitoring during cardioversion defibrillation and pacing procedures,0.6,0.438,0.8,-5,-0.421
+What are the professional requirements for maintaining active registration and licensure status as a dietitian in Clinical Nutrition,0.8,0.521,1.0,5,0.662
+Who is responsible for cosigning the order for Ondansetron administration at triage as per the hospital policy,0.4,0.375,0.4,0,0.0
+What specific topic should be discussed regarding the antibiotic plan during the huddle,0.4,0.333,0.6,4,0.571
+How often is the program for annual education around signs and symptoms of TB provided to all staff,0.8,0.521,1.0,4,0.429
+What are the potential risks associated with transfusing red blood cells with high potassium levels and how can these risks be minimized,0.8,0.521,1.0,4,0.571
+What are some of the underlying diagnoses represented in the patient population served by the Center for Advanced Intestinal Rehabilitation CAIR,0.4,0.333,0.6,4,0.571
+What are the steps to take if there is no response within 15 minutes during a Sepsis Huddle,0.8,0.521,1.0,8,0.932
+How does Boston Childrens Hospital encourage the identification and reporting of adverse events by its staff,0.8,0.521,1.0,3,0.304
+How does the hospital handle patient safety events and complaints and what reporting systems are in place for these incidents,0.8,0.521,1.0,7,0.842
+What are some examples of patient conditions that would necessitate the use of a postpyloric feeding tube according to the hospital policy,0.8,0.521,1.0,9,0.919
+What is the date of approval for the step described in the Approval Signatures section of the PFS  PCP Discrepancy PolicyProcedure document,0.6,0.396,0.8,0,0.0
+What documentation is required from the HSCT intake attending regarding the recipients performance status and remission status in the EMR prior to receiving donor lymphocyte infusion,0.8,0.521,1.0,0,0.0
+Which configurations are available for endotracheal tubes and tracheostomy tubes with sizes 8 10 12 and 14 Fr,0.6,0.396,0.8,-5,-0.421
+What are the key components of the care coordination process for a patient with a polyester allergy,0.8,0.521,1.0,5,0.662
+Where can the nurses find the guideline statements for the ERAS protocol in the document,0.6,0.458,0.8,-5,-0.421
+What are some examples of minimally invasive electrophysiology EP studies that nurses in the Cardiovascular Program may provide care for,0.8,0.521,1.0,4,0.571
+According to the hospital policy how soon must employees notify their supervisor and Occupational Health Service after being involved in a workrelated accident,0.8,0.521,1.0,9,1.003
+What are the considerations for documenting adequate sleep before conducting the Maintenance of Wakefulness Test MWT,0.8,0.521,1.0,9,1.003
+Who approved the publication of the NPCO in the document Pharmacy  Therapeutics Committee Charterpdf and what was the date of approval,0.6,0.458,0.8,0,0.0
+What is the document filename for the policy on LDL Apheresis Using Liposorber MA03,0.4,0.375,0.6,-5,-0.421
+What are the vital signs that should be monitored noninvasively during cardioversion defibrillation and pacing procedures,0.6,0.438,0.8,-5,-0.421
+What is the title of the attached file related to nonsterile compounding,0.6,0.271,0.8,-5,-0.421
+In the context of allogeneic recipients what are the specific requirements for Human Leukocyte Antigen HLA typings as outlined in the hospital policy,0.8,0.521,1.0,8,0.932
+What is the title of the document and who are the parties involved in the Service Level Agreement SLA,0.4,0.333,0.6,-5,-0.421
+What is the recommended technique for circuit priming preparation,0.8,0.521,0.8,13,1.193
+What are the potential causes of a water supply problem in the North Dartmouth area according to the hospitals response plan,0.8,0.521,1.0,9,0.908
+What are the nursing standards and guidelines for patient documentation as outlined in the hospital policies,0.8,0.521,1.0,20,1.685
+What is the purpose of the document 21 Controlled Substpdf in relation to the pharmacy,0.6,0.438,0.8,-5,-0.421
+What equipment should be included in the emergency cart for the care of these patients,0.8,0.521,1.0,1,0.143
+According to the hospital policy what are some examples of procedures or treatments that do NOT require a consent form,0.8,0.521,1.0,4,0.571
+How should a provider amend a signed informed consent document in the patients medical record,0.8,0.521,1.0,13,1.263
+What are the discharge guidelines for ambulatory surgery patients who have received sedation in the CPU,0.8,0.521,1.0,6,0.723
+Why is it important for a Communications Specialist to maintain continuity and accuracy in dispatching transport calls,0.8,0.521,1.0,3,0.376
+What is the hospital doing to support research education and training for all clinical staff and how can new nurses get involved in these opportunities,0.8,0.521,1.0,0,0.0
+What steps should be followed to look up authorized study providers in the hospitals protocol,0.8,0.521,0.8,17,1.519
+According to the hospital policies what are the recommended strategies for preventing central Lineu2013Associated bloodstream infections in acute care hospitals as of 2014,0.8,0.521,1.0,0,0.0
+What is the meaning of PPE when it comes to sterile compounding,0.8,0.521,1.0,3,0.429
+What special considerations should be taken for trach and trachventdependent patients perioperatively,0.6,0.458,0.8,4,0.466
+What are the responsibilities of the RIO and RCO during the Preliminary Assessment of an Allegation of Research Misconduct,0.6,0.458,0.8,10,1.075
+What are the responsibilities of the Primary Provider when signing the consent form for a planned procedure intervention or treatment,0.8,0.521,1.0,10,1.065
+What are the potential negative outcomes associated with excess free iron in bank blood and how can ultrafiltration be used to correct this issue before transfusion,0.8,0.521,1.0,9,1.003
+Why is it important to verify termination of a pregnancy before proceeding with a planned procedure for a patient who has recently terminated a pregnancy,0.8,0.521,1.0,3,0.376
+What is the protocol for the Primary Provider if something unexpected occurs during a procedure intervention or treatment,0.8,0.521,1.0,4,0.571
+When is direct notification made to the President  CEO for activations with time sensitivelife safety concerns,0.8,0.521,1.0,4,0.366
+What items must be accounted for and documented during interventional radiology procedures,0.6,0.458,0.8,6,0.403
+In the context of Focal Segmental Glomerulosclerosis FSGS what are the conditions under which standard treatment options are considered unsuccessful or not well tolerated for the patient,0.8,0.521,1.0,-5,-0.421
+According to the hospitals Standard Precautions policy what are the primary strategies for preventing and controlling healthcareassociated infections,0.8,0.521,1.0,12,1.218
+What criteria must a patient meet in order to be transferred from the PACU to an inpatient unit as outlined in the hospital policies,0.8,0.521,1.0,9,0.993
+How often should a consent be reviewed and updated for outpatient services and under what circumstances would a new consent be required for recurrent treatments and procedures,0.8,0.521,1.0,5,0.662
+What is the process for handling a transport request in terms of communication responsibilities for the Communications Specialist,0.8,0.521,1.0,16,1.464
+What is the recommended frequency for assessing the patients original condition mentioned in the document,0.6,0.458,0.8,8,0.932
+What are the process steps for preop labs in the Renal Biopsy procedure,0.8,0.521,1.0,4,0.571
+What program completion is necessary for a nurse to become a GI Associate according to the hospital policy,0.8,0.521,1.0,0,0.0
+How is heparinized plasmalyte added to the heparinized blood bag in the process described,0.8,0.521,1.0,-5,-0.421
+What form should be used to document all kit and lot numbers used in LDL Apheresis treatment,0.4,0.312,0.6,1,0.143
+When should the specialty of a consultant contacted to evaluate a patient be documented in the patients medical record,0.8,0.521,1.0,10,1.065
+What aspects of the patients condition and response to enteral alimentation therapy should be included in the Electronic Documentation Progress Notes,0.8,0.521,1.0,16,1.439
+How are patient placement decisions made on 10 Northwest unit and what specific patient populations are cared for under specific protocols,0.8,0.521,1.0,2,0.233
+What are the responsibilities of the nurse if an infant does not pass the hearing test prior to discharge according to the hospital policy,0.8,0.521,1.0,13,1.244
+What processes does Boston Childrens Specialty Pharmacy have in place to collect data on patient access to services,0.8,0.521,1.0,14,1.334
+When does the Investigation timeline officially begin according to the hospital policy on research misconduct,0.8,0.521,1.0,0,0.0
+What are the definitions of fabrication falsification and plagiarism in the context of research misconduct,0.6,0.458,0.8,3,0.429
+How should nurses handle the related content processes when encountering them during their shift,0.2,0.25,0.4,-5,-0.421
+What is the time frame for subsequent continuing reviews as determined by the IRB and what factors can influence this time frame,0.8,0.521,1.0,8,0.903
+How often should vital signs be monitored for loss of capture during transport post cardioversion or defibrillation and what should be included in each set of vital signs documentation,0.8,0.521,1.0,11,1.12
+What tasks are the helper responsible for during the admission process in the PACU,0.8,0.521,1.0,7,0.789
+How does the MetaNeb System help in preventing or resolving patchy atelectasis,0.0,0.0,0,8,0.932
+What action does the text instruct the reader to take in relation to the attached file,0.6,0.438,0.8,-5,-0.421
+In the event of a bomb threat or suspicious package who needs to confirm that the incident has passed before deactivation can be made,0.8,0.521,1.0,20,1.685
+What specific items will be ordered for a patient with a polyester allergy to ensure their comfort and safety during their stay,0.8,0.521,1.0,4,0.571
+What specific information is included in the peritoneal dialysis daily orders CAPD Manual document,0.8,0.521,1.0,12,1.218
+What is the role of ECMO in the MSICU Clinical Practice Guideline,0.6,0.458,0.8,13,1.279
+What special needs do patients with an allergy to polyester have when it comes to bed linen and clothing,0.4,0.375,0.6,5,0.662
+What are the necessary equipment components for using the MetaNeb Controller with a ventilator inline,0.6,0.396,0.8,-5,-0.421
+Who discovered penicillin,0.0,0.0,0,0,0.0
+What is the capital city of Australia,0.4,0.146,0.4,0,0.0
+When did the Titanic sink,0.0,0.0,0,0,0.0
+Where is the Mona Lisa displayed,0.0,0.0,0,0,0.0
+Why is the sky blue,0.0,0.0,0,0,0.0
+What song is most popular right now,0.0,0.0,0,0,0.0
+What is the chemical symbol for gold,0.0,0.0,0,0,0.0
+When was the Declaration of Independence signed,0.4,0.312,0.4,0,0.0
+Where is the Great Barrier Reef located,0.0,0.0,0,0,0.0
+Are dogs better than cats,0.0,0.0,0,0,0.0
+Who directed the movie Jurassic Park,0.0,0.0,0,0,0.0
+What is the main ingredient in guacamole,0.0,0.0,0,0,0.0
+When was the first moon landing,0.0,0.0,0,0,0.0
+Why is Boston Childrens a good hospital,0.6,0.458,0.8,0,0.0
+Why is the ocean salty,0.0,0.0,0,0,0.0
+Who wrote To Kill a Mockingbird,0.0,0.0,0,0,0.0
+What is the tallest mountain in the world,0.0,0.0,0,0,0.0
+When was the Eiffel Tower completed,0.0,0.0,0,0,0.0
+Where is the Colosseum located,0.0,0.0,0,0,0.0
+Why do leaves change color in the fall,0.6,0.271,0.8,0,0.0
+Who developed the theory of relativity,0.0,0.0,0,0,0.0
+What is the currency of Japan,0.0,0.0,0,0,0.0
+When did World War II end,0.0,0.0,0,0,0.0
+Where is the Taj Mahal located,0.0,0.0,0,0,0.0
+Why do we yawn,0.0,0.0,0,0,0.0
+Who was the first person to step on the Moon,0.6,0.458,0.6,0,0.0
+What is the largest ocean on Earth,0.0,0.0,0,0,0.0
+When was the first iPhone released,0.0,0.0,0,0,0.0
+Where is the Louvre Museum located,0.0,0.0,0,0,0.0
+Why is the Mona Lisa famous,0.0,0.0,0,0,0.0
+Who is the Greek god of war,0.0,0.0,0,0,0.0
+What is the hardest natural substance on Earth,0.2,0.25,0.4,0,0.0
+When was the Great Wall of China built,0.0,0.0,0,0,0.0
+Where should I go get lunch,0.0,0.0,0,0,0.0
+Why do stars twinkle,0.0,0.0,0,0,0.0
+Who was the first Disney princess,0.0,0.0,0,0,0.0
+What is the process by which plants make their own food called,0.6,0.458,0.8,0,0.0
+When did the Berlin Wall fall,0.2,0.25,0.4,0,0.0
+Where is the Panama Canal located,0.0,0.0,0,0,0.0
+Why do we dream,0.0,0.0,0,0,0.0
+Who wrote the Harry Potter series,0.0,0.0,0,0,0.0
+What is the largest desert in the world,0.0,0.0,0,0,0.0
+When was the Magna Carta signed,0.4,0.312,0.6,0,0.0
+Where is Mount Everest located,0.0,0.0,0,0,0.0
+Why do elephants have trunks,0.0,0.0,0,0,0.0
+Can I park my car outside the hospital,0.4,0.312,0.6,0,0.0
+What is the largest species of bear,0.0,0.0,0,0,0.0
+When was the Statue of Liberty dedicated,0.2,0.083,0.2,0,0.0
+Where is the Acropolis located,0.0,0.0,0,0,0.0
+Why is the Great Wall of China important,0.0,0.0,0,0,0.0
+Who directed the film The Shawshank Redemption,0.2,0.083,0.2,0,0.0
+What is the chemical symbol for iron,0.2,0.25,0.4,0,0.0
+When was the first computer invented,0.0,0.0,0,0,0.0
+Where is the Sahara Desert located,0.0,0.0,0,0,0.0
+Why do birds sing,0.0,0.0,0,0,0.0
+Who discovered electricity,0.0,0.0,0,0,0.0
+What is the square root of 64,0.2,0.125,0.2,0,0.0
+When was the first Olympic Games held,0.0,0.0,0,0,0.0
+Where is the Dead Sea located,0.0,0.0,0,0,0.0
+Why is recycling important,0.0,0.0,0,0,0.0
+Who painted The Last Supper,0.0,0.0,0,0,0.0
+What is the capital city of Brazil,0.4,0.146,0.4,0,0.0
+When did the Cold War end,0.2,0.25,0.2,0,0.0
+Where is the Grand Canyon located,0.0,0.0,0,0,0.0
+Why do people celebrate Halloween,0.0,0.0,0,0,0.0
+Who invented the light bulb,0.2,0.25,0.2,0,0.0
+What is the chemical symbol for silver,0.0,0.0,0,0,0.0
+When was the Great Fire of London,0.2,0.083,0.4,0,0.0
+Where is the Sydney Opera House located,0.0,0.0,0,0,0.0
+Why do we have leap years,0.0,0.0,0,0,0.0
+Who discovered the structure of DNA,0.2,0.062,0.2,0,0.0
+What is the smallest bone in the human body,0.8,0.521,1.0,0,0.0
+When did the Industrial Revolution start,0.0,0.0,0,0,0.0
+Where is the Vatican City located,0.0,0.0,0,0,0.0
+Why do earthquakes happen,0.0,0.0,0,0,0.0
+Who directed the movie Avatar,0.0,0.0,0,0,0.0
+What is the largest moon in our solar system,0.0,0.0,0,0,0.0
+When was the Rosetta Stone discovered,0.0,0.0,0,0,0.0
+Where is the Statue of Liberty located,0.0,0.0,0,0,0.0
+Why do people wear wedding rings,0.2,0.062,0.2,0,0.0
+Who painted American Gothic,0.0,0.0,0,0,0.0
+What is the currency of China,0.0,0.0,0,0,0.0
+When was the Renaissance,0.0,0.0,0,0,0.0
+Where is the Eiffel Tower located,0.0,0.0,0,0,0.0
+Why does lightning occur,0.0,0.0,0,0,0.0
+Who wrote The Great Gatsby,0.2,0.25,0.2,0,0.0
+What is the boiling point of water in Fahrenheit,0.4,0.146,0.6,0,0.0
+What is the largest living species of cat,0.4,0.375,0.4,0,0.0
+Where is the Amazon Rainforest located,0.0,0.0,0,0,0.0
+Why do volcanoes erupt,0.0,0.0,0,0,0.0
+Who directed the movie Titanic,0.0,0.0,0,0,0.0
+What is the national bird of the United States,0.0,0.0,0,0,0.0
+When was the Battle of Hastings,0.0,0.0,0,0,0.0
+Why is the Statue of Liberty green,0.0,0.0,0,0,0.0
+Who painted The Night Watch,0.2,0.062,0.4,0,0.0
+What is the chemical symbol for carbon,0.2,0.25,0.4,0,0.0
+When did Christopher Columbus discover America,0.0,0.0,0,0,0.0
+Where is the Great Wall of China located,0.4,0.208,0.4,0,0.0
+Why is the Amazon Rainforest important,0.0,0.0,0,0,0.0
+Who wrote The Canterbury Tales,0.0,0.0,0,0,0.0
