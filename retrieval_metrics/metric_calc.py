@@ -246,6 +246,6 @@ def binarize_data(in_f: str, out_f:str):
 
 if __name__ == "__main__":
     k = 5
-    #generate_metrics("responses.csv", "metrics.csv", k)
-    individual_relevances("queries_and_retrieved_sources.csv", "binary_relevance.csv")
-    binarize_data("queries_and_retrieved_sources.csv", "binarized_human_metrics.csv")
+    generate_metrics("responses.csv", "metrics.csv", k)
+    individual_relevances("retrieved_sources.csv", "binary_relevance.csv")
+    binarize_data("retrieved_sources.csv", "binarized_human_metrics.csv")
