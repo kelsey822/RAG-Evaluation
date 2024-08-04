@@ -63,4 +63,4 @@ def generate_responses(headers: list, input: str, output: str):
 if __name__ == "__main__":
     columns = 5
     headers = headers(columns)
-    generate_responses(headers, "queries.csv", "responses_2.csv")
+    generate_responses(headers, "queries.csv", "responses.csv")
