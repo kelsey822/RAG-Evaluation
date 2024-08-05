@@ -29,13 +29,17 @@ if __name__ == "__main__":
     #get the medical query data
     medical_data = filtered_data.loc[filtered_data['medical'] == '1']
 
-    #get the main retrieval data
-    swapped_data = filtered_data.iloc[:, 7:]
-    main_data = filtered_data.melt(var_name='relevance', value_name='value')
 
-    #create dfs for each retrieved source
+    #get the main etrieval data
+    swapped_data = filtered_data.iloc[:, 7:]
+    main_data = swapped_data.melt(var_name='relevance', value_name='value')
+    main_data = main_data.groupby(['relevance', 'value']).size().reset_index(name='count')
+
+
+    #create binary dfs for each retrieved source
     human_relevance_df = filtered_data.iloc[:, [7,8,9,10,11]]
     hr_df = human_relevance_df.melt(var_name='relevance', value_name='value')
+    hr_df["value"] = hr_df["value"].astype(str)
     hr_df = hr_df.groupby(['relevance', 'value']).size().reset_index(name='count')
 
     source1_df = filtered_data.iloc[:, [12, 17]]
@@ -66,6 +70,10 @@ if __name__ == "__main__":
     #plot the normalized retrieval metrics
     create_violin(normal_retrieved, 'metric', 'value')
 
+    #plot the human generated retrieval metrics
+    create_bar(hr_df, "relevance", "count", "value", "all")
+
+    """
     #plot the binary relevance metrics
     create_bar(source1_df,"relevance", "count", "value", "Source 1")
     create_bar(source2_df,"relevance", "count", "value", "Source 2")
@@ -76,7 +84,10 @@ if __name__ == "__main__":
     #read the data for llm responses
     llm_df = (pd.read_csv("llm_responses_data.csv")).iloc[:, 2:-1]
     llm_df = llm_df.melt(var_name='statistic', value_name='value')
+    llm_df["value"] = llm_df["value"].astype(str)
     llm_df = llm_df.groupby(['statistic', 'value']).size().reset_index(name='count')
 
     #plot the llm repsonse data
     create_bar(llm_df, 'statistic', 'count', 'value', 'llm response')
+    """
+
