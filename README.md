@@ -79,3 +79,9 @@ python generate_llm_response.py
 Note: An input .csv file (containing queries and sources) must be provided in the script and in the same directory as the script.
 
 For both methods, the query and llm response will be saved to a .csv file after running.
+
+# Testing
+To test the retrieval metric calculation run 
+```
+pytest test_calculate_metric_calculation
+```
