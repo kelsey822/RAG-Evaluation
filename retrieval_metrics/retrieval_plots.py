@@ -73,7 +73,6 @@ if __name__ == "__main__":
     #plot the human generated retrieval metrics
     create_bar(hr_df, "relevance", "count", "value", "all")
 
-    """
     #plot the binary relevance metrics
     create_bar(source1_df,"relevance", "count", "value", "Source 1")
     create_bar(source2_df,"relevance", "count", "value", "Source 2")
@@ -89,5 +88,4 @@ if __name__ == "__main__":
 
     #plot the llm repsonse data
     create_bar(llm_df, 'statistic', 'count', 'value', 'llm response')
-    """
 
