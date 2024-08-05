@@ -40,22 +40,27 @@ if __name__ == "__main__":
 
     source1_df = filtered_data.iloc[:, [12, 17]]
     source1_df = source1_df.melt(var_name='relevance', value_name='value')
+    source1_df["value"] = source1_df["value"].astype(str)
     source1_df = source1_df.groupby(['relevance', 'value']).size().reset_index(name='count')
 
     source2_df = filtered_data.iloc[:, [13, 18]]
     source2_df = source2_df.melt(var_name='relevance', value_name='value')
+    source2_df["value"] = source2_df["value"].astype(str)
     source2_df = source2_df.groupby(['relevance', 'value']).size().reset_index(name='count')
 
     source3_df = filtered_data.iloc[:, [14, 19]]
     source3_df = source3_df.melt(var_name='relevance', value_name='value')
+    source3_df["value"] = source3_df["value"].astype(str)
     source3_df = source3_df.groupby(['relevance', 'value']).size().reset_index(name='count')
 
     source4_df = filtered_data.iloc[:, [15, 20]]
     source4_df = source4_df.melt(var_name='relevance', value_name='value')
+    source4_df["value"] = source4_df["value"].astype(str)
     source4_df = source4_df.groupby(['relevance', 'value']).size().reset_index(name='count')
 
     source5_df = filtered_data.iloc[:, [16, 21]]
     source5_df = source5_df.melt(var_name='relevance', value_name='value')
+    source5_df["value"] = source5_df["value"].astype(str)
     source5_df = source5_df.groupby(['relevance', 'value']).size().reset_index(name='count')
 
     #plot the normalized retrieval metrics
