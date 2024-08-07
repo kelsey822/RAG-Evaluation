@@ -22,7 +22,7 @@ def create_scatter(df, x: str, y: str, color=None, symbol=None):
 
 
 def create_confusion_matrix(df, group_1: str, group_2: str):
-    cm = ((df.groupby([group_1, group_2])).size()).unstack(fill_value=0)
+    cm = ((df.groupby([group_2, group_1])).size()).unstack(fill_value=0)
     cm = cm.reindex([1, 0], axis=0).reindex([1, 0], axis=1)
     print(cm)
 
