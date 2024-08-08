@@ -13,8 +13,8 @@ def string_format(query: str):
 
 
 
-def parse(input_f: str, output_f: str):
-    """
+def parse(input_f: str):
+    """Takes a csv file of queries and parses them into a single command line argument.
     """
     args = []
     #open the queries file to read
@@ -26,14 +26,13 @@ def parse(input_f: str, output_f: str):
             args.append(formatted)
 
 
-    #remove the commas in the list 
+    #remove the commas in the list
     delim = " "
     args = delim.join([ele for ele in args])
     return args
 
 if __name__ == "__main__":
     input_f = "queries.csv"
-    output_f = "parsed.csv"
-    print(parse(input_f, output_f))
+    print(parse(input_f))
 
 
