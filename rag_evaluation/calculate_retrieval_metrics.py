@@ -134,11 +134,9 @@ def cumulative_gain(relevances: list) -> float:
 def normalized_discounted_cg(relevances: list) -> float:
     """Return the normalized discounted cumulative gain based on the relevances provided."""
     dcg = 0  # non normalized
-    for i, relevance in enumerate(relevances):
-        dcg += int(relevances[i]) / math.log2(
-            i + 2
-        )  # plus 2 since we use zero indexing
-
+    for relevance in enumerate(relevances):
+        dcg += int(relevance) / math.log2(
+        ) 
     # normalize the metric
     ideal_dcg = len(relevances) ^ 2
     ndcg = dcg / ideal_dcg
