@@ -81,7 +81,7 @@ Note: An input .csv file (containing queries and sources) must be provided in th
 For both methods, the query and llm response will be saved to a .csv file after running.
 
 # Testing
-To test the retrieval metric calculation run 
+To test the retrieval metric calculation run
 ```
-pytest test_calculate_metric_calculation
+python -m pytest
 ```
