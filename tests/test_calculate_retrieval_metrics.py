@@ -1,6 +1,5 @@
 """Testing for calculating the retrieval metrics.
 """
-import pytest
 
 from rag_evaluation.calculate_retrieval_metrics import (
     average_precision, cumulative_gain, get_keywords, get_source_relevance,
