@@ -107,4 +107,4 @@ if __name__ == "__main__":
             row = [query] + [llm_response] + [""]
             # write the row
             writer.writerow(row)
-    print(output)
+    print(out_f)
