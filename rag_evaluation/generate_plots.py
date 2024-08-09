@@ -62,7 +62,7 @@ def generate_source_plots(
 
 if __name__ == "__main__":
     # read and clean the raw retrieval data
-    retrieved_df = pd.read_csv("data.csv")  # convert the csv to a df
+    retrieved_df = pd.read_csv("./data/data.csv")  # convert the csv to a df
     retrieved_df = retrieved_df.loc[
         retrieved_df["source 1 human relevance"] != -1
     ]  # get rid of the -1 rows
@@ -132,7 +132,7 @@ if __name__ == "__main__":
     )
 
     # read and clean the generated retrieval metrics (e.g. precision @k)
-    normal_retrieved_df = pd.read_csv("normalized_metrics.csv")
+    normal_retrieved_df = pd.read_csv("./data/normalized_metrics.csv")
     normal_retrieved_unswapped = normal_retrieved_df.iloc[:, 1:]
     normal_retrieved = normal_retrieved_unswapped.melt(
         var_name="metric", value_name="value"
@@ -142,7 +142,7 @@ if __name__ == "__main__":
     create_violin(normal_retrieved, "metric", "value", "retrieval metrics")
 
     # read, clean, and transform the llm data
-    llm_df = (pd.read_csv("llm_responses_data.csv")).iloc[
+    llm_df = (pd.read_csv("./data/llm_responses_data.csv")).iloc[
         :, 2:-1
     ]  # get just the metrics from the csv file
 

@@ -1,10 +1,8 @@
 """Normalizes data using max min scaling so all the metrics can be easily compared.
 """
 
-import csv
-
 import pandas as pd
-from sklearn.preprocessing import MinMaxScaler, StandardScaler
+from sklearn.preprocessing import MinMaxScaler
 
 if __name__ == "__main__":
     # open the file with the metrics
