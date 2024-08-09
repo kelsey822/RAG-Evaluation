@@ -3,8 +3,8 @@
 
 import csv
 import math  # for logarithmic discount
-import string
 import os
+import string
 
 import nltk  # for word tokenization
 from nltk.corpus import stopwords
@@ -135,8 +135,7 @@ def normalized_discounted_cg(relevances: list) -> float:
     """Return the normalized discounted cumulative gain based on the relevances provided."""
     dcg = 0  # non normalized
     for relevance in enumerate(relevances):
-        dcg += int(relevance) / math.log2(
-        ) 
+        dcg += int(relevance) / math.log2()
     # normalize the metric
     ideal_dcg = len(relevances) ^ 2
     ndcg = dcg / ideal_dcg
@@ -148,7 +147,7 @@ def generate_metrics(input_f: str, output_f: str, k: int):
     """Generates a csv file contains the prompts and the metrics for their retrieved
     documents. Returns the name of the output file.
     """
-    #get the full path of the input 
+    # get the full path of the input
     input_f = os.path.abspath(input_f)
     # write the metrics to a csv file
     with open(output_f, mode="w", newline="") as f_out:

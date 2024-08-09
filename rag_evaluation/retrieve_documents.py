@@ -3,8 +3,9 @@
 
 import csv
 import json
-import requests
 import string
+
+import requests
 
 
 def headers(columns: int) -> list:
@@ -34,7 +35,7 @@ def generate_responses(headers: list, input: str, output: str):
                 # format relevant rows
                 query = row[0].strip()
                 query = query.translate(str.maketrans("", "", string.punctuation + "•"))
- 
+
                 # send POST request
                 result = requests.post(
                     "http://localhost:8000/ask", json={"query": query}

@@ -98,7 +98,7 @@ if __name__ == "__main__":
         writer.writerow(["query", "response"])
 
         # generate the llm response
-        for row in responses[1:]: #skips the header
+        for row in responses[1:]:  # skips the header
             query = row[0]
             sources = row[1]
             llm_response = get_llm_response(query, sources)
