@@ -18,7 +18,7 @@ A list of sources that were helpful in creating the RAG pipeline and evaluating 
 * [What Makes Quantization for Large Language Models Hard? An Empirical Study from the Lens of Perturbation](https://arxiv.org/html/2403.06408v1)
 * [Quantization in LLMs: Why Does It Matter?](https://medium.com/data-from-the-trenches/quantization-in-llms-why-does-it-matter-7c32d2513c9e)
 * [The Illustrated Word2vec](https://jalammar.github.io/illustrated-word2vec/)
-* [What is Retrieval Augmented Generation (RAG)?] (https://pureinsights.com/blog/2023/what-is-retrieval-augmented-generation-rag/)
+* [What is Retrieval Augmented Generation (RAG)?](https://pureinsights.com/blog/2023/what-is-retrieval-augmented-generation-rag/)
 * [Vector Search](https://github.com/esteininger/vector-search?tab=readme-ov-file)
 * [Evaluation Metrics For Information Retrieval](https://amitness.com/posts/information-retrieval-evaluation)
 * [BM25](https://github.com/xhluca/bm25s#readme)
