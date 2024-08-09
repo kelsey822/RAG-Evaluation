@@ -6,12 +6,12 @@
 * Skimmed policy pdfs to create a list of queries
 
 # Resources Reviewed
-* [Evaluation Metrics For Information Retrieval][https://amitness.com/posts/information-retrieval-evaluation#problem-setup-2-graded-relevance] 
-* [Vector Search][https://github.com/esteininger/vector-search]
-* [What is Retrieval Augmented Generation (RAG)?][https://pureinsights.com/blog/2023/what-is-retrieval-augmented-generation-rag/]
-* [Evaluation Measures in Information Retrieval][https://www.pinecone.io/learn/offline-evaluation/]
-* [Normalized Discounted Cumulative Gain (NDCG) explained][https://www.evidentlyai.com/ranking-metrics/ndcg-metric]
-* [RAG and RAU: A Survey on Retrieval-Augmented Language Model in Natural Language Processing][https://arxiv.org/pdf/2404.19543]
+* [Evaluation Metrics For Information Retrieval](https://amitness.com/posts/information-retrieval-evaluation#problem-setup-2-graded-relevance)
+* [Vector Search](https://github.com/esteininger/vector-search)
+* [What is Retrieval Augmented Generation (RAG)?](https://pureinsights.com/blog/2023/what-is-retrieval-augmented-generation-rag/)
+* [Evaluation Measures in Information Retrieval](https://www.pinecone.io/learn/offline-evaluation/)
+* [Normalized Discounted Cumulative Gain (NDCG) explained](https://www.evidentlyai.com/ranking-metrics/ndcg-metric)
+* [RAG and RAU: A Survey on Retrieval-Augmented Language Model in Natural Language Processing](https://arxiv.org/pdf/2404.19543)
 
 # Notes
 * RAG evaluation methods
