@@ -197,6 +197,57 @@ def generate_metrics(in_f: str, out_f: str, k: int):
     return out_f
 
 
+def individual_relevances(in_f: str, out_f: str):
+    """Writes a csv file with determined relevances. 1 for relevant and 0 for non relevant."""
+    # write the relevances to a csv file
+    with open(out_f, mode="w", newline="") as f_out:
+        out_f = csv.writer(f_out)
+        out_f.writerow(
+            ["relevance1", "relevance2", "relevance3", "relevance4", "relevance5"]
+        )
+
+        with open(in_f, mode="r", newline="") as f_in:
+            responses = csv.reader(f_in)
+            # skip the header
+            next(responses)
+
+            # get the relevances for each source
+            for response in responses:
+                keywords = get_keywords(response[0])
+                relevances = []
+                for source in response[1:6]:  # first column is the query
+                    relevances.append(get_source_relevance(source, keywords))
+                out_f.writerow(relevances)
+    return out_f
+
+
+def binarize_data(in_f: str, out_f: str):
+    """Binarizes the human generated relevances. If the score is a 3 or 4 then it is relevant (1),
+    otherwise it isn't (0). Saves the binary data to a csv file.
+    """
+    with open(out_f, mode="w", newline="") as f_out:
+        out_f = csv.writer(f_out)
+        out_f.writerow(
+            ["relevance1", "relevance2", "relevance3", "relevance4", "relevance5"]
+        )
+
+        with open(in_f, mode="r", newline="") as f_in:
+            responses = csv.reader(f_in)
+            # skip the header
+            next(responses)
+            for response in responses:
+                relevances = []
+                for relevance in response[6:]:  # only look at the metrics
+                    if relevance == "3" or relevance == "4":
+                        relevances.append(1)
+                    else:
+                        relevances.append(0)
+                out_f.writerow(relevances)
+    return out_f
+
+
 if __name__ == "__main__":
     k = 5
     generate_metrics("responses.csv", "metrics.csv", k)
+    individual_relevances("retrieved_sources.csv", "binary_relevance.csv")
+    binarize_data("retrieved_sources.csv", "binarized_human_metrics.csv")
