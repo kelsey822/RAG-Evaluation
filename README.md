@@ -42,9 +42,9 @@ pip install -r requirements.txt
 Note: [policy chat][https://github.com/healthmap/policy_chat_backend] needs to be running before generation of the data set
 ````
 # with policy chat running
-python rag-test.py
+python retrieve_documents.py
 ````
-The data will be saved in a .csv file containing the query and source texts as separate columns.
+The data will be saved in a ``.csv`` file containing the query and retrieved source texts as separate columns.
 
 # Retrieval metrics
 The following metrics are calculated on the retrieval data
@@ -54,34 +54,49 @@ The following metrics are calculated on the retrieval data
   * Cumulative Gain (CG): Measures the total sum of relevances.
   * Normalized Cumulative Discounted Gain (NCDG): Measures the normalized sum of relevances while adding a discount factor for order.
 
+
 # Generate the retrieval metrics
-
-Note: responses.csv must be in the same working directory as metric_calc.py to generate metrics
-
 ```
 # with responses.csv already generated including human scored relevances
-python metric_calc.py
+python calculate_retrieval_metrics.py
 ```
+
 # Generate a response from an LLM
-Prior to generating responses from an LLM a MistralAI API key is required set as the environment variable ```MISTRAL_API_KEY```. 
+Prior to generating responses from an LLM a MistralAI API key is required set as the environment variable ```MISTRAL_API_KEY```.
 There are two ways to generate a response.
 To generate a response with no retrieved sources from policy-chat created:
+
 ```
-python generate_llm_response.py "Query"
+python generate_llm_responses.py "Query"
 ```
-Note: An input .csv file cannot be provided in the script
+
+Note: An input ``.csv`` file cannot be provided in the script
 This will pass the query to policy-chat, generate the relevant sources, and then pass to the LLM.
 
-To generate a response with a .csv file of queries and pre-generated sources
-```
-python generate_llm_response.py
-```
-Note: An input .csv file (containing queries and sources) must be provided in the script and in the same directory as the script.
+To generate a response with a ``.csv`` file of queries and pre-generated sources
 
-For both methods, the query and llm response will be saved to a .csv file after running.
+```
+python generate_llm_responses.py
+```
+
+Note: An input ``.csv`` file (containing queries and sources) must be provided in the script and in the same directory as the script.
+
+For both methods, the query and LLM response will be saved to a ``.csv`` file after running.
+
+
+# Generate Metric Plots
+With the relevant data frames created, plots can be generated with:
+
+```
+python generate_plots.py
+```
+
+Used scripts to create the data frames are included in the rag-evaluation directory. Similarly the data for the sample queries is in the data directory. 
+
 
 # Testing
-To test the retrieval metric calculation run
+To test the retrieval metric calculation:
+
 ```
 python -m pytest
 ```
