@@ -4,3 +4,7 @@ pylint
 pytest
 requests
 nltk
+mistralai
+pandas
+plotly
+scikit-learn
