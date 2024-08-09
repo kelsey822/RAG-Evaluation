@@ -37,9 +37,25 @@ pip-compile requirements.in
 pip install -r requirements.txt
 
 ```
+# Run policy chat
+On MacOS make the following changes to get policy chat running:
+
+```
+#under pip in environment.yml add ‘langchain-community’ as a new list element
+# in lines 159 and 213, in the method call FAISS.load_local, add ` allow_dangerous_deserialization=True` as the last parameter
+```
+Then run with Docker:
+```
+```
+docker buildx build --platform linux/amd64 --load -t policy_chat_backend .
+docker run -p 8000:8000 policy_chat_backend
+```
+
+```
+after that, I found the API successfully loaded on my mac within Docker
 # Generate the data set
 
-Note: [policy chat][https://github.com/healthmap/policy_chat_backend] needs to be running before generation of the data set
+Note: [policy chat](https://github.com/healthmap/policy_chat_backend) needs to be running before generation of the data set
 ````
 # with policy chat running
 python retrieve_documents.py
