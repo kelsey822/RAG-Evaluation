@@ -1,0 +1,119 @@
+[
+    {
+        "query": "What are the steps the medical team should take if an infant has not had a hearing screening at the birth hospital or requires a repeat screen",
+        "response": {
+            "query": "What are the steps the medical team should take if an infant has not had a hearing screening at the birth hospital or requires a repeat screen",
+            "result": "hi",
+            "source_documents": [
+                {
+                    "page_content": "{\"filename\": \"Newborn Infant Hearing Screening Policy-Procedure.pdf\", \"header\": \"Implementation\", \"text\": \"The MD/NP determines if the infant's hearing screen was completed at the birth hospital. If the infant has not had a hearing screening at the birth hospital or if the infant requires a repeat screen as determined by the guidelines in this policy, the medical team: \\u2022 informs the parent/legal guardian of the significance of the hearing screenings. \\u2022 contacts Audiology (ext 5-6461 or via Newborn Hearing Screen Request in EHR) to alert of the need for the screening prior to discharge. The Audiology Assistant performs the hearing screen. The Audiologist: \\u2022 Reports normal results in patient chart (paper, if applicable, and in EHR) and communicates results to the parent/legal guardian. If the parent/legal guardian is not available, results are conveyed via telephone and/or postal mail. \\u2022 Reports abnormal results to the medical team and to the parent/legal guardian, and documents results in the EHR. A member of the medical team and/or the audiologist discusses with the parent/legal guardian abnormal results, the result implications, and need for further testing. The Audiologist gives a list of DPH-approved diagnostic test centers to the parent/legal guardian and instructs him/her to make a follow-up diagnostic audiological evaluation appointment at an approved test center. If the infant does not pass the hearing test prior to discharge, the nurse documents that the follow-up appointment has been scheduled on the Newborn Hearing Screening Test Result form located in the \\\"consults\\\" section of the patient's chart. \\u2022 If the follow-up appointment has not been scheduled, the nurse assists the parent/legal guardian with this process and documents the time and date of the appointment on the appropriate line of the form.\"}",
+                    "metadata": {
+                        "source": "./policies_all/Newborn Infant Hearing Screening Policy-Procedure.pdf"
+                    }
+                },
+                {
+                    "page_content": "{\"filename\": \"Newborn Infant Hearing Screening Policy-Procedure.pdf\", \"header\": \"Policy Statements Screening\", \"text\": \"1. Massachusetts requires all newborns to receive a hearing screening by three months of age, unless the parent/guardian objects to a screen based on sincerely held religious beliefs 2. Hearing Screening must occur at the birth hospital before initial discharge to home or at a referring hospital (if the newborn is directly transferred from the birth hospital) before initially discharged to home a. BCH clinicians should obtain and document in the patient's chart information from the transferring hospital if a hearing screen was performed and the results of such screen. If the screen was not successful, missed, or the infant did not pass prior to the transfer, BCH shall conduct the screen prior to initial discharge to home. b. BCH clinicians must notify the parent(s)/guardian(s) both orally and in writing if a heaing screening was not successful, missed, or the infant did not pass. If a repeat or further screening cannot occur prior to discharge, the parent(s)/guardian(s) should be informed in writing of the inability to test prior to discharge, and the following should occur: i. Notify the infant's primary care provider; and ii. An appointment should be made at a DPH approved screening center such as BCH (note based on lack of availability of appointments at available locations, parents can also be provided with a list of sites that conduct such diagnostic screening for their choice). 3. If an infant cannot be screened due to delayed physiological development or physiological instability (related to but not limited to an illness or premature birth) as determined by the treating clinician, the infant shall be screened prior to discharge and as early as the identified physiological development or stability will permit reliable screening. 4. If the infant is discharged to home prior to conducting the hearing screen, an appointment is made for a screen to be performed within 1 month of the infants birth (note based on lack of availability of appointments at available locations, parents can also be provided with a list of sites that conduct such diagnostic screening for their choice). a. The infant's primary care provider should be notified that a hearing screen is pending. Re-screening 5. The Joint Committee on Infant Hearing (JCIH) recommends a repeat hearing screen prior to discharge for infants with conditions/complications associated with potential hearing loss. a. Conditions that warrant re-screening include, but are not limited to, history of ECMO, bilirubin level >20 and/or hyperbilirubinemia requiring an exchange transfusion, gentamicin dosing>72 hrs, furosemide>7 doses, culture-positive sepsis, and meningitis.\"}",
+                    "metadata": {
+                        "source": "./policies_all/Newborn Infant Hearing Screening Policy-Procedure.pdf"
+                    }
+                },
+                {
+                    "page_content": "{\"filename\": \"Newborn Screening for Critical Congenital Heart Di.pdf\", \"header\": \"Procedures Eligibility\", \"text\": \"\\u2022 Newborns at risk for undetected CCHD include all newborns not previously screened at birth hospital when they meet the following criteria: \\u2022 \\u2265 24 hours of age \\u2022 Off supplemental oxygen for > 24 hours \\u2022 Newborns with a prenatal diagnosis of congenital heart defect or a prior normal echocardiogram are not considered at risk for undetected CCHD and do not require a screen. \\u2022 Newborns on supplemental oxygen that have not been previously screened require an echocardiogram (ECHO) to screen for CCHD prior to discharge to home. \\u2022 Newborns transferred on oxygen to another hospital that performs CCHD screening require either an ECHO prior to transfer or an instruction in the discharge note for receiving provider to complete the CCHD screening.\"}",
+                    "metadata": {
+                        "source": "policies_all/Newborn Screening for Critical Congenital Heart Di.pdf"
+                    }
+                },
+                {
+                    "page_content": "{\"filename\": \"Newborn Blood Screening Policy-Procedure.pdf\", \"header\": \"Newborn Blood Screen Specimen Collection\", \"text\": \"1. If BCH is not aware that a newborn blood sample was collected at the birth hospital or was obtained prior to 24 hours of age, a blood sample will be taken between 24-48 hours after birth for all inpatient newborn admissions. 2. The admitting nurse is responsible for verifying if any blood specimens were collected on newborns prior to admission to Boston Children's Hospital, or indicating that such information was not provided so the appropriate collection will occur during the BCH admission. 3. In addition to the initial specimen collected within 24-48 hours of birth on all infants, BCH will also collect repeat specimens according to the following timeframes as a general standard of care for all newborns who are treated for inpatient level services: a. For patients in Intensive Care Units: i. 14 days; ii. 1 month of age; and iii. monthly thereafter at the discretion of the prescriber. b. For patients in non-ICU setting: i. Newborn Blood Screens will be ordered at the discretion of the prescriber based on an abnormal Newborn Screening, or the clinical presentation and admitting diagnosis. 4. Operational Considerations : a. Obtain specimens prior to a blood transfusion or dialysis to prevent masking clinically significant test results. i. If the infant is transfused within 48 hours of specimen collection, a repeat specimen should be obtained 48 hours post transfusion. b. If the infant will be discharged to another facility, notify the receiving hospital when the most recent specimen was obtained. c. If there is a clinical concern about hypothyroidism, testing can be performed sooner than the standard intervals. d. Repeat specimens are collected immediately if the New England Newborn Screening Program at the Massachusetts State Lab reports abnormal results or indicates that a specimen is unsatisfactory for any reason. e. Urgent results are faxed or mailed to Boston Children's Hospital and must be reported immediately to the newborn's treating provider for appropriate follow-up.\"}",
+                    "metadata": {
+                        "source": "./policies_all/Newborn Blood Screening Policy-Procedure.pdf"
+                    }
+                },
+                {
+                    "page_content": "{\"filename\": \"Newborn Infant Hearing Screening Policy-Procedure.pdf\", \"header\": \"Procedures Assessment\", \"text\": \"Massachusetts defines \\\"newborn infant\\\" for purposes of the hearing screen as an infant under three months of age and the term \\\"hearing screen\\\" is a test to detect hearing thresholds of 30 decibels or greater in the speech frequency range in either ear. Screening is conducted as soon as the infant is medically stable and prior to initial discharge to home. In exceptional circumstances related to medical acuity as determined by the infant's physician/nurse practitioner (MD/NP), the hearing screen is completed no later than three months of age.\"}",
+                    "metadata": {
+                        "source": "./policies_all/Newborn Infant Hearing Screening Policy-Procedure.pdf"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "query": "What are the administration guidelines for enteral products in the hospital",
+        "response": {
+            "query": "What are the administration guidelines for enteral products in the hospital",
+            "result": "hi",
+            "source_documents": [
+                {
+                    "page_content": "{\"filename\": \"Administration of Medication by the Enteral Tube R.pdf\", \"header\": \"Implementation\", \"text\": \"1. See Authorized Medication Administration policy. 2. Check orogastric or nasogastric tube placement according to the Patient Care Manual: Insertion of Indwelling Nasogastric Feeding Tubes . Do not check placement of post-pyloric tubes. 3. Verify that enteral feeding tubing is attached to enteral route. 4. Prepare the medication. Use liquid preparations whenever possible. Crush and dissolve tablets to a fine powder using a Silent Knight\\u00ae or single-patient use pill crusher. If able to remove the contents, mix the contents of a hard or soft gelatin capsule with water if a liquid form is not available. 5. Mix powdered medications with water until fully dissolved before administering into the enteral tube. 6. Administer medication via enteral syringe. 7. When preparing doses from floor stock products, for small volumes, use an appropriate sized syringe and medication straw (required for 0.5 mL-3 mL ENfit\\u2122 syringes) when drawing up the medication to ensure accurate dosing. 8. Assess exit point marking on the enteral tube prior to medication administration; refer to the Insertion of Indwelling Nasogastric Feeding Tubes policy. 9. Flush the tube with sterile water between medications and after the last one to prevent occlusions. Consider patient\\u2019s fluid allowance; refer to Enteral Tube Flushing Guidelines. Sticky or viscous medications may need a larger volume of sterile water flush to clear the tubing.\"}",
+                    "metadata": {
+                        "source": "policies_all/Administration of Medication by the Enteral Tube R.pdf"
+                    }
+                },
+                {
+                    "page_content": "{\"filename\": \"Administration of Medication by the Enteral Tube R.pdf\", \"header\": \"Process Steps Assessment\", \"text\": \"1. Flush the enteral tube well with water between each medication. Refer to Enteral Tube Flushing Guidelines . 2. If a patient vomits a medication, determine by consultation with prescriber, whether the dose needs to be repeated. 3. For the management of enteral tube occlusions, refer to Managing Enteral Feeding Tubes Obstructions Reference Tool. 4. Patients stabilized on long-term medications at home or in an extended care facility may continue their preparation, timing, and medication administration regimen as written by the prescriber.\"}",
+                    "metadata": {
+                        "source": "policies_all/Administration of Medication by the Enteral Tube R.pdf"
+                    }
+                },
+                {
+                    "page_content": "{\"filename\": \"Enteral Nutrition Product Acquisition Policy-Proce.pdf\", \"header\": \"Policy Statements\", \"text\": \"1. Clinical Nutrition is responsible for developing recipes, preparing and distributing: a. Formulas and nutrition additive products that are not available as ready-to-feed (RTF) products on the floor/unit b. Human milk (HM) that requires fortification or other modifications 2. HM or formula prepared or modified outside of the FPC must have approval from the prescriber. 3. Hospital distribution is responsible for providing RTF enteral products as ordered by individual patient units per hospital formulary. 4. Purpose a. To ensure the appropriate communication channels are used to acquire enteral nutrition products to meet patient's needs.\"}",
+                    "metadata": {
+                        "source": "./policies_all/Enteral Nutrition Product Acquisition Policy-Proce.pdf"
+                    }
+                },
+                {
+                    "page_content": "{\"filename\": \"Enteral Feeding by Gravity Guideline.pdf\", \"header\": \"Guideline Statements\", \"text\": \"\\u2022 Administer enteral feedings through enteral syringe feeding tubing or through an enteral feeding bag attached directly to the feeding tube. \\u2022 To prevent inadvertent administration of enteral feeding via the intravenous route, do not use intravenous tubing for enteral feeds \\u2022 Administer gravity feedings into the stomach only by nasogastric, orogastric, or gastrostomy tube when the patient has inadequate oral intake. \\u2022 Ensure oxygen and suction equipment are available at the patient bedside at all times.\"}",
+                    "metadata": {
+                        "source": "policies_all/Enteral Feeding by Gravity Guideline.pdf"
+                    }
+                },
+                {
+                    "page_content": "{\"filename\": \"Enteral Feeding by Gravity Guideline.pdf\", \"header\": \"Related Content The Patient Care Manual\", \"text\": \"\\u2022 Administration of Medication by the Enteral Tube Route \\u2022 Insertion and Management of Indwelling Nasogastric Feeding Tubes \\u2022 Human Milk Management \\u2022 Enteral Tube Flushing Guidelines\"}",
+                    "metadata": {
+                        "source": "policies_all/Enteral Feeding by Gravity Guideline.pdf"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "query": "What safetyrelated topics are included in the Mandatory Yearly Reviews MYRs assignments for new employees during their orientation",
+        "response": {
+            "query": "What safetyrelated topics are included in the Mandatory Yearly Reviews MYRs assignments for new employees during their orientation",
+            "result": "hi",
+            "source_documents": [
+                {
+                    "page_content": "{\"filename\": \"Safety Policy-Procedure.pdf\", \"header\": \"New Employee Orientation\", \"text\": \"\\u2022 As part of their new employee orientation, employees receive Mandatory Yearly Reviews (\\\"MYRs\\\") assignments for the following safety-related topics: \\u25e6 Fire safety \\u25e6 Workplace hazards \\u25e6 Hazard communications \\u25e6 Emergency Management\"}",
+                    "metadata": {
+                        "source": "./policies_all/Safety Policy-Procedure.pdf"
+                    }
+                },
+                {
+                    "page_content": "{\"filename\": \"Compliance Monitoring and Training Policy-Procedur.pdf\", \"header\": \"Information Security Training\", \"text\": \"\\u2022 Orientation material for new employees must include a section defining the hospitals asset management security policies. \\u2022 Each employee must complete the online Mandatory Yearly Review (MYR) Information Security Module once per year.\"}",
+                    "metadata": {
+                        "source": "./policies_all/Compliance Monitoring and Training Policy-Procedur.pdf"
+                    }
+                },
+                {
+                    "page_content": "{\"filename\": \"Employee Orientation Policy-Procedure.pdf\", \"header\": \"Policy Statements\", \"text\": \"\\u2022 All new employees are required to participate in a New Hire Orientation Program that includes privacy and security of patient and employee information training. \\u2022 Employees may be required to participate in additional sessions based on job duties. \\u2022 Newly hired employees are also expected to participate in department-specific orientation conducted by their supervisor and other department members to acquaint new employees with department-specific policies and procedures including information such as philosophy, goals, and performance expectations.\"}",
+                    "metadata": {
+                        "source": "policies_all/Employee Orientation Policy-Procedure.pdf"
+                    }
+                },
+                {
+                    "page_content": "{\"filename\": \"Nursing Staff Evaluation Policy-Procedure.pdf\", \"header\": \"Policy Statements\", \"text\": \"Each policy statement should reflect the basic objectives of the organization and a description of the general guiding principles or rules. 1. Employees newly hired by the Department of Patient Care Services serve a review period according to Personnel Policy. All nursing employees are evaluated in writing at the end of their unit-based orientation period. a. This orientation evaluation documents the accomplishment of unit-based orientation. Staff who demonstrate achievement of unit-based orientation expectations are competent to care for patients commonly admitted to that unit at the completion of orientation. 2. Annually, from date of hire, each nursing employee's job performance is evaluated according to Personnel Policy . Staff are evaluated using performance criteria from their job description. 3. Employees are required to complete the Mandatory Yearly Review (MYR) process as described in Personnel Policy. 4. The employee's annual review date is used as the reference point for annual completion of MYRs. All completion records are maintained in NetLearning and can be found in individual employee transcripts. Employees are required to present a copy of their transcript at yearly review. 5. Evidence of continuing education and in-service education are reviewed at the annual performance evaluation. A plan for meeting identified learning needs is made. 6. The annual performance evaluation, including peer review serves to document on-going clinical competence. It also serves as the basis for re-appointment to a Staff Nurse I, II, or III position.\"}",
+                    "metadata": {
+                        "source": "./policies_all/Nursing Staff Evaluation Policy-Procedure.pdf"
+                    }
+                },
+                {
+                    "page_content": "{\"filename\": \"Employee Orientation & Training Policy-Procedure.pdf\", \"header\": \"Procedures\", \"text\": \"Hospital Orientation \\u2013 The focus of orientation is the mission and philosophy of the organization, human resources policies & procedures, general safety, emergency management and infection control. 1. All employees are required to attend the hospital orientation program. The scheduled date for attendance will be established at the time of hire. Attendance is documented. Department Orientation \\u2013 The focus of orientation is departmental policies & procedures; performance expectations; customer service; general safety, emergency planning and infection control specific to the functions within Food Services; food safety and HACCP practices; job description and task assignments and the employee's role in safety and performance improvement. The methods used are discussion, observation, demonstration, assigned readings and videos. 1. All new Food Services employees complete a general departmental orientation conducted by the hiring manager or designee(s) within the first ten days of employment. Ongoing In-service Education & Training \\u2013 The focus of ongoing education and training is development and/or reinforcement of critical skills and knowledge needed for safe and high quality performance of assigned duties. 1. Mandatory facility in-service education and competency assessment is completed for all Food Services employees per facility policy. 2. Annual departmental in services are conducted for all Food Services employees on customer service, food safety and general safety per Sodexo guidelines. 3. Documentation of completed training & education is maintained in the department.\"}",
+                    "metadata": {
+                        "source": "./policies_all/Employee Orientation & Training Policy-Procedure.pdf"
+                    }
+                }
+            ]
+        }
+    }
+]
